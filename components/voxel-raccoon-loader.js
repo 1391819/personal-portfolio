@@ -28,6 +28,8 @@ export const RaccoonContainer = forwardRef(({ children }, ref) => (
   </Box>
 ));
 
+RaccoonContainer.displayName = "RaccoonContainer";
+
 const Loader = () => {
   return (
     <RaccoonContainer>

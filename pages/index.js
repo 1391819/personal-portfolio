@@ -172,7 +172,6 @@ export default function Home() {
         maxWidth="700px"
         px={2}
       >
-        // landing title
         <Box
           className="full-page-scroll-section"
           as="main"
@@ -216,8 +215,8 @@ export default function Home() {
                   //rounded: "full",
                 }}
               >
-                I'm a multilingual artificial intelligence graduate based in
-                Newcastle upon Tyne. I have a great interest in full-stack
+                I&apos;m a multilingual artificial intelligence graduate based
+                in Newcastle upon Tyne. I have a great interest in full-stack
                 development, machine learning, human-computer interactions, and
                 everything in between.
               </Highlight>
@@ -270,7 +269,6 @@ export default function Home() {
             </Section>
           </Section>
         </Box>
-        // different sections
         <Box
           className="full-page-scroll-section"
           id="about-me"
@@ -421,9 +419,9 @@ export default function Home() {
                 </Box>
               </Box>
               <Paragraph>
-                Outside of work, I'm interested in following the advancements of
-                science related fields. I also play a lot of video games and
-                read productivity aimed books or articles.
+                Outside of work, I&apos;m interested in following the
+                advancements of science related fields. I also play a lot of
+                video games and read productivity aimed books or articles.
               </Paragraph>
             </Box>
           </FadeIn>

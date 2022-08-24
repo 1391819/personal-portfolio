@@ -80,6 +80,7 @@ const CreationGridItem = ({ thumbnail, children, title, link }) => {
       </Link>
       */}
         <Image
+          alt="project-thumbnail"
           rounded={"lg"}
           height={230}
           width={282}
