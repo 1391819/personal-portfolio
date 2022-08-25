@@ -54,6 +54,13 @@ const GlobalStyle = ({ children }) => {
             height: 100vh;
             scroll-behavior: smooth;
           }
+          .fixed-navbar {
+            position: fixed;
+            z-index: 100;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0);
+            pointer-events: none;
+          }
         `}
       />
       {children}

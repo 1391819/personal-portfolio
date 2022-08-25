@@ -52,13 +52,16 @@ const Container = ({ children }) => {
     dark: "#e5e5e5",
   };
 
+  {
+    /*    //backgrop-filter: saturate(100%) blur(20px);
+      //transition: height 0.5s, line-height 0.5s;*/
+  }
+
   const StickyNav = styled(Flex)`
     position: fixed;
     z-index: 100;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0);
-    //backgrop-filter: saturate(100%) blur(20px);
-    //transition: height 0.5s, line-height 0.5s;
     pointer-events: none;
   `;
 
@@ -75,8 +78,10 @@ const Container = ({ children }) => {
       >
         {children}
       </Flex>
-      <StickyNav
+      <Box
         as="nav"
+        className="fixed-navbar"
+        display="flex"
         justifyContent={[
           "flex-end",
           "flex-end",
@@ -85,11 +90,11 @@ const Container = ({ children }) => {
           null,
           null,
         ]}
-        alignItems="flex-end"
-        width="100%"
+        alignItems={"flex-end"}
+        width={"100%"}
         pl={[null, null, null, 8, 10, null]}
         pr={[4, 4, 8, 8, 10, null]}
-        pb={[4, 4, 6, null, null, 10]}
+        pb={[2, 4, 6, null, null, 10]}
       >
         <Box
           display={["none", "none", "none", "flex", "flex", "flex"]}
@@ -242,7 +247,7 @@ const Container = ({ children }) => {
           </Stack>
           <DarkModeSwitch />
         </Box>
-      </StickyNav>
+      </Box>
     </div>
   );
 };
