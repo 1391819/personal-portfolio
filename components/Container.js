@@ -54,8 +54,7 @@ const Container = ({ children }) => {
 
   {
     /*    //backgrop-filter: saturate(100%) blur(20px);
-      //transition: height 0.5s, line-height 0.5s;*/
-  }
+      //transition: height 0.5s, line-height 0.5s;
 
   const StickyNav = styled(Flex)`
     position: fixed;
@@ -64,6 +63,8 @@ const Container = ({ children }) => {
     background-color: rgba(0, 0, 0, 0);
     pointer-events: none;
   `;
+  */
+  }
 
   return (
     <div className="content-container">

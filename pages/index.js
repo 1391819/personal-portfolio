@@ -513,46 +513,75 @@ export default function Home() {
               >
                 <Tab
                   fontSize={["sm", "md", "lg", "md", null, "lg"]}
-                  as={motion.div}
-                  whileHover={{ scale: 1.1 }}
                   mb={2}
-                  mr={[1.5, null, null, null, null, null]}
-                  borderRight={["0", null, null, "2px solid", null]}
-                  borderBottom={["2px solid", null, null, "0", null]}
-                  //borderColor={["#e5e5e5"]}
-                  borderColor={[
-                    "rgba(0, 0, 0, 0)",
-                    null,
-                    null,
-                    null,
-                    null,
-                    null,
-                  ]}
+                  mr={1.5}
                   pointerEvents="auto"
                   cursor="pointer"
                   userSelect="none"
                   color={tabButtonColor[colorMode]}
                   bg={tabButtonBgColor[colorMode]}
                   _selected={{
-                    //borderRight: ["2px solid", "0"],
-                    //borderBottom: ["2px solid", "0"],
                     borderColor: contentButtonBorderColor[colorMode],
-                    //color: contentButtonHoverColor[colorMode],
-                    //bg: contentButtonHoverBg[colorMode],
-                    //borderColor: contentButtonHoverBorderColor[colorMode],
                   }}
-                  _hover={
-                    {
-                      //color: contentButtonHoverColor[colorMode],
-                      //bg: contentButtonHoverBg[colorMode],
-                      //borderColor: contentButtonHoverBorderColor[colorMode],
-                    }
-                  }
+                  border={"2px solid"}
+                  borderColor={"rgba(0, 0, 0, 0)"}
+                  borderWidth={["0 0 2px 0", null, null, "0 2px 0 0", null]}
+                  as={motion.div}
+                  whileHover={{ scale: 1.1 }}
                 >
                   DDX
                 </Tab>
               </TabList>
               <TabPanels fontSize={["sm", "md", "lg", "md", null, "lg"]} pl={2}>
+                <TabPanel>
+                  <Heading
+                    as="h3"
+                    fontSize={["xl", "1xl", "2xl", "2xl", null, "3xl"]}
+                  >
+                    <Highlight
+                      query="DDX"
+                      styles={{
+                        color: headingColor[colorMode],
+                      }}
+                    >
+                      Software Developer Intern @ DDX
+                    </Highlight>
+                  </Heading>
+                  <Paragraph as="em">Sep 2017 - Nov 2017</Paragraph>
+                  <List spacing={[2, 4, null, null, null, null]} pt={4}>
+                    <ListItem display="flex" alignItems="center">
+                      <ListIcon
+                        as={ChevronRightIcon}
+                        color={listIconsColor[colorMode]}
+                      />
+                      <Paragraph>
+                        Learnt the company’s own C derived programming language
+                        within 2 weeks.
+                      </Paragraph>
+                    </ListItem>
+                    <ListItem display="flex" alignItems="center">
+                      <ListIcon
+                        as={ChevronRightIcon}
+                        color={listIconsColor[colorMode]}
+                      />
+                      <Paragraph>
+                        Developed and debugged CNC programs while considering
+                        customers’ needs and efficiently meeting their
+                        requirements.
+                      </Paragraph>
+                    </ListItem>
+                    <ListItem display="flex" alignItems="center">
+                      <ListIcon
+                        as={ChevronRightIcon}
+                        color={listIconsColor[colorMode]}
+                      />
+                      <Paragraph>
+                        Resolved customers’ enquiries orally and in writing, and
+                        provided remote technical assistance.
+                      </Paragraph>
+                    </ListItem>
+                  </List>
+                </TabPanel>
                 <TabPanel>
                   <Heading
                     as="h3"
