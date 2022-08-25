@@ -92,6 +92,7 @@ const Container = ({ children }) => {
         pb={[4, 4, 6, null, null, 10]}
       >
         <Box
+          border="1px solid red"
           display={["none", "none", "none", "flex", null, null]}
           flexDirection={"column"}
           alignItems={"flex-start"}
