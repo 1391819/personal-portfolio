@@ -78,7 +78,7 @@ export default function Home() {
 
   const highlightColor = {
     light: "#171717",
-    dark: "#f9f9f9",
+    dark: "#e5e5e5",
   };
 
   const componentsBoxShadow = {
@@ -89,7 +89,7 @@ export default function Home() {
 
   const contentButtonColor = {
     light: "#171717",
-    dark: "#f9f9f9",
+    dark: "#e5e5e5",
   };
 
   const contentButtonBgColor = {
@@ -103,8 +103,8 @@ export default function Home() {
   };
 
   const contentButtonHoverColor = {
-    light: "#f9f9f9",
-    dark: "#f9f9f9",
+    light: "#e5e5e5",
+    dark: "#e5e5e5",
   };
 
   const contentButtonBorderColor = {
@@ -166,11 +166,10 @@ export default function Home() {
         <title>Roberto Nacu</title>
       </Head>
       <Stack
-        zIndex="20"
         spacing={8}
         m="0 auto 1rem auto"
         maxWidth="700px"
-        px={2}
+        px={[8, null, 4, null, null, null]}
       >
         <Box
           className="full-page-scroll-section"
@@ -186,7 +185,13 @@ export default function Home() {
             <LazyVoxelRaccoon />
           </Section>
           <Section>
-            <Heading as="h2" mt={20} mb={2} variant="page-title">
+            <Heading
+              as="h1"
+              variant="page-title"
+              fontSize={["4xl", null, "4.5xl", "4xl", null, "5xl"]}
+              mt={20}
+              mb={2}
+            >
               <Typed
                 strings={[
                   "hi, <mark class='highlight-word-banner'>roberto</mark> here.",
@@ -225,6 +230,9 @@ export default function Home() {
               <Box display="flex">
                 <Box as={motion.div} whileHover={{ scale: 1.05 }} pr={4} mt={8}>
                   <Button
+                    fontSize={["md", null, "lg", "md", null, "xl"]}
+                    pt={6}
+                    pb={6}
                     fontWeight={500}
                     aria-label="Contact me"
                     rightIcon={<ChatIcon />}
@@ -246,6 +254,9 @@ export default function Home() {
                 </Box>
                 <Box as={motion.div} whileHover={{ scale: 1.05 }} mt={8}>
                   <Button
+                    fontSize={["md", null, "lg", "md", null, "xl"]}
+                    pt={6}
+                    pb={6}
                     fontWeight={500}
                     aria-label="Download resume"
                     rightIcon={<DownloadIcon />}
@@ -286,23 +297,24 @@ export default function Home() {
             animate={control}
             transition="5s"
           >*/}
+
           <FadeIn>
-            <Box display={{ md: "flex" }}>
+            <Box display={["flex", null, null, null, null, null]}>
               <Box flexGrow={1}>
                 <Box display="flex" alignItems="center">
                   <Heading
-                    as="h3"
+                    as="h2"
                     variant="section-title"
                     flex="1"
                     mb={2}
-                    fontSize={"4xl"}
+                    fontSize={["3xl", "3.5xl", "4xl", "3.5xl", null, "4.5xl"]}
                     color={headingColor[colorMode]}
                   >
                     / about me
                   </Heading>
-                  <Divider flex="1.3" />
+                  <Divider flex={["1", "1.3", "1.1", "1.3", null, "0.8"]} />
                 </Box>
-                <Box pt={4}>
+                <Box pt={4} fontSize={["sm", "md", "lg", "md", null, "lg"]}>
                   <BioSection>
                     <BioYear>1998</BioYear>
                     <Paragraph>Born in Milan, Italy.</Paragraph>
@@ -346,31 +358,49 @@ export default function Home() {
               </Box>
               <Box
                 flexShrink={0}
-                mt={{ base: 4, md: 0 }}
-                ml={{ md: 6 }}
+                mt={[4, 0, 4, 0, null, 4]}
+                mb={[2, 0, 2, null, null, null]}
+                ml={[null, 6, 6, null, null, 6]}
                 align="center"
+                display={["none", "none", "inline-block", null, null]}
               >
                 <Image
                   boxShadow={"lg"} //{componentsBoxShadow[colorMode]}
-                  maxWidth="200px"
-                  display="inline-block"
+                  maxWidth={[null, null, "180px", "200px", null]}
                   borderRadius="full"
                   src="/images/profile.jpg"
                   alt="Profile Image"
                 />
               </Box>
             </Box>
-            <Box pt={8}>
+            <Box
+              fontSize={["sm", "md", "lg", "md", null, "lg"]}
+              pt={[4, 5, 4, null, null, null]}
+            >
               <Paragraph>
                 Here are some of the technologies I have been working with:
               </Paragraph>
-              <Box display="flex" justifyContent="flex-start">
+              <Box
+                display="flex"
+                justifyContent={["center", null, null, null, null, null]}
+              >
                 <Box
                   display="flex"
-                  justifyContent="space-between"
-                  width={"40%"}
+                  justifyContent={[
+                    "space-between",
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                  ]}
+                  width={["80%", "60%", null, null, null, null]}
                 >
-                  <List spacing={1} pt={4} pb={4}>
+                  <List
+                    spacing={1}
+                    pt={[3, 2, 3, null, null, null]}
+                    pb={[4, 5, 4, null, null, null]}
+                  >
                     <ListItem display="flex" alignItems="center">
                       <ListIcon
                         as={ChevronRightIcon}
@@ -393,7 +423,11 @@ export default function Home() {
                       <Paragraph>HTML & CSS</Paragraph>
                     </ListItem>
                   </List>
-                  <List spacing={1} pt={4} pb={4}>
+                  <List
+                    spacing={1}
+                    pt={[3, 2, 3, null, null, null]}
+                    pb={[4, 5, 4, null, null, null]}
+                  >
                     <ListItem display="flex" alignItems="center">
                       <ListIcon
                         as={ChevronRightIcon}
@@ -438,32 +472,60 @@ export default function Home() {
           <FadeIn>
             <Box display="flex" alignItems="center">
               <Heading
-                as="h3"
+                as="h2"
                 variant="section-title"
                 flex="1"
                 mb={2}
-                fontSize={"4xl"}
+                fontSize={["3xl", "3.5xl", "4xl", "3.5xl", null, "4.5xl"]}
                 color={headingColor[colorMode]}
               >
                 / experience
               </Heading>
-              <Divider flex="2" />
+              <Divider flex={["0.8", "1.1", "1.8", "2", null, "1.3"]} />
             </Box>
-            <Tabs variant="unstyled" display="flex" alignItems="center">
-              <TabList display="flex" flexDirection="column">
+
+            <Tabs
+              variant="unstyled"
+              display="flex"
+              flexDirection={["column", "column", "column", "row", null, null]}
+              alignItems={[
+                "flex-start",
+                "flex-start",
+                "flex-start",
+                "center",
+                null,
+                null,
+              ]}
+            >
+              <TabList
+                display="flex"
+                flexDirection={["row", "row", "row", "column", null, null]}
+              >
                 <Tab
+                  fontSize={["sm", "md", "lg", "md", null, "lg"]}
                   as={motion.div}
                   whileHover={{ scale: 1.1 }}
                   mb={2}
-                  borderRight={"2px solid"}
-                  borderColor={"rgba(0, 0, 0, 0)"}
+                  mr={[1.5, null, null, null, null, null]}
+                  borderRight={["0", null, null, "2px solid", null]}
+                  borderBottom={["2px solid", null, null, "0", null]}
+                  //borderColor={["#e5e5e5"]}
+                  borderColor={[
+                    "rgba(0, 0, 0, 0)",
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                  ]}
                   pointerEvents="auto"
                   cursor="pointer"
                   userSelect="none"
                   color={contentButtonColor[colorMode]}
                   bg={contentButtonBgColor[colorMode]}
                   _selected={{
-                    borderRight: "2px solid",
+                    //borderRight: ["2px solid", "0"],
+                    //borderBottom: ["2px solid", "0"],
                     borderColor: contentButtonBorderColor[colorMode],
                     //color: contentButtonHoverColor[colorMode],
                     //bg: contentButtonHoverBg[colorMode],
@@ -480,9 +542,12 @@ export default function Home() {
                   DDX
                 </Tab>
               </TabList>
-              <TabPanels pl={2}>
+              <TabPanels fontSize={["sm", "md", "lg", "md", null, "lg"]} pl={2}>
                 <TabPanel>
-                  <Heading fontSize="2xl">
+                  <Heading
+                    as="h3"
+                    fontSize={["xl", "1xl", "2xl", "2xl", null, "3xl"]}
+                  >
                     <Highlight
                       query="DDX"
                       styles={{
@@ -493,7 +558,7 @@ export default function Home() {
                     </Highlight>
                   </Heading>
                   <Paragraph as="em">Sep 2017 - Nov 2017</Paragraph>
-                  <List spacing={1} pt={4}>
+                  <List spacing={[2, 4, null, null, null, null]} pt={4}>
                     <ListItem display="flex" alignItems="center">
                       <ListIcon
                         as={ChevronRightIcon}
@@ -543,16 +608,16 @@ export default function Home() {
           <FadeIn>
             <Box display="flex" alignItems="center">
               <Heading
-                as="h3"
+                as="h2"
                 variant="section-title"
                 flex="1"
                 mb={2}
-                fontSize={"4xl"}
+                fontSize={["3xl", "3.5xl", "4xl", "3.5xl", null, "4.5xl"]}
                 color={headingColor[colorMode]}
               >
                 / creations
               </Heading>
-              <Divider flex="2.3" />
+              <Divider flex={["1", "1.2", "2", "2.2", null, "1.6"]} />
             </Box>
             <Creations />
           </FadeIn>
@@ -586,7 +651,7 @@ export default function Home() {
         </Box>
         */}
         <Box
-          fontSize={"xs"}
+          fontSize={["xs", null, "sm", "xs", null, "sm"]}
           display="flex"
           flexDirection="column"
           alignItems="center"

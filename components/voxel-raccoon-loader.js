@@ -18,10 +18,10 @@ export const RaccoonContainer = forwardRef(({ children }, ref) => (
     ref={ref}
     className="voxel-raccoon"
     m="auto"
-    mt={["-180px", "-170px", "-120px"]}
-    mb={["-40px", "-20px", "-40px"]}
-    w={[280, 480, 640]}
-    h={[280, 480, 640]}
+    mt={["-40px", "-45px", "-50px", "10px", null, "-40px"]}
+    mb={["-50px", "-50px", "-50px", "-40px", null, "-40px"]}
+    w={[300, 400, 600, 450, null, 420, 600]}
+    h={[300, 400, 600, 450, null, 420, 600]}
     position="relative"
   >
     {children}

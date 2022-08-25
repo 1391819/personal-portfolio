@@ -23,7 +23,7 @@ const Container = ({ children }) => {
   const { colorMode } = useColorMode();
 
   const bgColor = {
-    light: "#f9f9f9",
+    light: "#e5e5e5",
     dark: "#171717",
   };
 
@@ -38,8 +38,8 @@ const Container = ({ children }) => {
   };
 
   const socialBgColor = {
-    light: "#f9f9f9",
-    dark: "#171717",
+    light: "whiteAlpha",
+    dark: "blackAlpha",
   };
 
   const socialHoverBg = {
@@ -54,7 +54,7 @@ const Container = ({ children }) => {
 
   const StickyNav = styled(Flex)`
     position: fixed;
-    z-index: 10;
+    z-index: 100;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0);
     //backgrop-filter: saturate(100%) blur(20px);
@@ -64,25 +64,48 @@ const Container = ({ children }) => {
 
   return (
     <div className="content-container">
+      <Flex
+        as="main"
+        justifyContent="center"
+        flexDirection="column"
+        bg={bgColor[colorMode]}
+        color={color[colorMode]}
+        //px={[1, 4, null, null, null, 5]} // review
+        //mt={[0, 8, 0, null, null, null]} // review
+      >
+        {children}
+      </Flex>
       <StickyNav
         as="nav"
-        justifyContent="space-between"
+        justifyContent={[
+          "flex-end",
+          "flex-end",
+          "flex-end",
+          "space-between",
+          null,
+          null,
+        ]}
         alignItems="flex-end"
         width="100%"
-        pl={10}
-        pr={10}
-        pb={8}
+        pl={[null, null, null, 8, 10, 10]}
+        pr={[4, 4, 8, 8, 10, 10]}
+        pb={[4, 4, 6, null, null, 10]}
       >
-        <Box display="flex" flexDirection="column" alignItems="flex-start">
+        <Box
+          display={["none", "none", "none", "flex", null, null]}
+          flexDirection={"column"}
+          alignItems={"flex-start"}
+        >
           <Section delay="0.50">
             <NextLink href="#home" passHref>
               <Button
                 as="a"
                 color="red.400"
                 variant="link"
-                p={[1, 2, 0.5]}
+                pt={[1, 2, 0.5, null, null, null]} //review
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
+                fontSize={[null, null, null, "md", "sm", "md"]}
               >
                 / home
               </Button>
@@ -94,9 +117,10 @@ const Container = ({ children }) => {
                 as="a"
                 color="red.400"
                 variant="link"
-                p={[1, 2, 0.5]}
+                p={[1, 2, 0.5, null, null, null]} //review
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
+                fontSize={[null, null, null, "md", "sm", "md"]}
               >
                 / about me
               </Button>
@@ -108,9 +132,10 @@ const Container = ({ children }) => {
                 as="a"
                 color="red.400"
                 variant="link"
-                p={[1, 2, 0.5]}
+                p={[1, 2, 0.5, null, null, null]} //review
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
+                fontSize={[null, null, null, "md", "sm", "md"]}
               >
                 / experience
               </Button>
@@ -122,9 +147,10 @@ const Container = ({ children }) => {
                 as="a"
                 color="red.400"
                 variant="link"
-                p={[1, 2, 0.5]}
+                p={[1, 2, 0.5, null, null, null]} //review
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
+                fontSize={[null, null, null, "md", "sm", "md"]}
               >
                 <Box>/ creations</Box>
               </Button>
@@ -146,18 +172,29 @@ const Container = ({ children }) => {
             </NextLink>
           </Section> */}
         </Box>
-        <Box display="flex" flexDirection="column" alignItems="center">
-          <Stack spacing={0.5} pb={2}>
+        <Box
+          display={["flex", null, null, null, null, null]}
+          flexDirection={["row", null, null, "column", null, null]}
+          alignItems={["center", null, null, null, null, null]}
+        >
+          <Stack
+            display={["flex"]}
+            flexDirection={["row", "row", "row", "column", null, null]}
+            //alignItems={["center", "center", "flex-start"]}
+            spacing={[0, null, null, 0.5, null, null]}
+            pb={[0, null, null, 2, null, null]}
+            pr={[2, null, null, 0, null, null]}
+          >
             <Link href="https://github.com/1391819" target="_blank">
               <Button
                 aria-label="Open Github"
+                fontSize={["sm", "md", null, "lg", null, null]}
                 leftIcon={<Icon mr={-2} as={IoLogoGithub} />}
                 borderRadius={"5px"}
                 _hover={{
-                  color: "#f9f9f9",
+                  color: "#e5e5e5",
                   bg: socialHoverBg[colorMode],
                 }}
-                fontSize={"20px"}
                 p={0}
                 color={socialIconColor[colorMode]}
                 bg={socialBgColor[colorMode]}
@@ -170,13 +207,13 @@ const Container = ({ children }) => {
             >
               <Button
                 aria-label="Open Instagram"
+                fontSize={["sm", "md", null, "lg", null, null]}
                 leftIcon={<Icon mr={-2} as={IoLogoInstagram} />}
                 borderRadius={"5px"}
                 _hover={{
-                  color: "#f9f9f9",
+                  color: "#e5e5e5",
                   bg: socialHoverBg[colorMode],
                 }}
-                fontSize={"20px"}
                 p={0}
                 color={socialIconColor[colorMode]}
                 bg={socialBgColor[colorMode]}
@@ -189,13 +226,13 @@ const Container = ({ children }) => {
             >
               <Button
                 aria-label="Open Instagram"
+                fontSize={["sm", "md", null, "lg", null, null]}
                 leftIcon={<Icon mr={-2} as={IoLogoLinkedin} />}
                 borderRadius={"5px"}
                 _hover={{
-                  color: "#f9f9f9",
+                  color: "#e5e5e5",
                   bg: socialHoverBg[colorMode],
                 }}
-                fontSize={"20px"}
                 p={0}
                 color={socialIconColor[colorMode]}
                 bg={socialBgColor[colorMode]}
@@ -206,17 +243,6 @@ const Container = ({ children }) => {
           <DarkModeSwitch />
         </Box>
       </StickyNav>
-      <Flex
-        as="main"
-        justifyContent="center"
-        flexDirection="column"
-        bg={bgColor[colorMode]}
-        color={color[colorMode]}
-        px={[0, 4, 4]}
-        mt={[0, 8, 0]}
-      >
-        {children}
-      </Flex>
     </div>
   );
 };

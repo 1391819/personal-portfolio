@@ -9,10 +9,12 @@ const fonts = {
 };
 
 const breakpoints = createBreakpoints({
-  sm: "40em",
-  md: "52em",
-  lg: "64em",
+  sm: "30em",
+  md: "48em",
   lg: "62em",
+  xl: "80em",
+  "1xl": "96em",
+  "2xl": "118em",
 });
 
 const overrides = {
@@ -30,9 +32,12 @@ const overrides = {
     md: "16px",
     lg: "18px",
     xl: "20px",
+    "1xl": "22px",
     "2xl": "24px",
     "3xl": "28px",
+    "3.5xl": "32px",
     "4xl": "36px",
+    "4.5xl": "42px",
     "5xl": "48px",
     "6xl": "64px",
   },

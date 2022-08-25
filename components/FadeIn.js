@@ -7,7 +7,7 @@ const FadeIn = ({ children }) => {
 
   const { inViewport } = useInViewport(
     ref,
-    { rootMargin: "-200px" },
+    { rootMargin: "-50px" },
     { disconnectOnLeave: false },
     {}
   );

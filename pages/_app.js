@@ -43,7 +43,7 @@ const GlobalStyle = ({ children }) => {
           .typed-cursor,
           .highlight-word-banner {
             background-color: rgba(0, 0, 0, 0);
-            color: ${colorMode === "light" ? "#389493" : "#53d0c3"};
+            color: ${colorMode === "light" ? "#319795" : "#4FD1C5"};
           }
           .full-page-scroll-section {
             scroll-snap-align: start;
@@ -54,8 +54,8 @@ const GlobalStyle = ({ children }) => {
             height: 100vh;
             scroll-behavior: smooth;
           }
-          .chakra-tabs__tablist:focus {
-            outline: "none";
+          .chakra-tabs__tab :focus {
+            outline: "none" !important;
           }
         `}
       />

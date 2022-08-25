@@ -15,8 +15,8 @@ import { motion } from "framer-motion";
 const ContactForm = () => {
   const { colorMode } = useColorMode();
   const submitColor = {
-    light: "#f9f9f9",
-    dark: "#f9f9f9",
+    light: "#e5e5e5",
+    dark: "#e5e5e5",
   };
 
   const bgColor = {
@@ -30,8 +30,8 @@ const ContactForm = () => {
   };
 
   const inputBg = {
-    light: "#f9f9f9",
-    dark: "#f9f9f9",
+    light: "#e5e5e5",
+    dark: "#e5e5e5",
   };
 
   const inputTextColor = {
@@ -52,7 +52,7 @@ const ContactForm = () => {
   };
 
   const formBgColor = {
-    //light: "#f9f9f9",
+    //light: "#e5e5e5",
     //dark: "#171717",
     light: "#f5f5f5",
     dark: "#1f1f1f",

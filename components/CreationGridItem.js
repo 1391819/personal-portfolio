@@ -18,8 +18,8 @@ import NextLink from "next/link";
 const CreationGridItem = ({ thumbnail, children, title, link }) => {
   const { colorMode } = useColorMode();
   const projectIconColor = {
-    light: "#f9f9f9",
-    dark: "#f9f9f9",
+    light: "#e5e5e5",
+    dark: "#e5e5e5",
   };
 
   const projectBgColor = {
@@ -28,10 +28,10 @@ const CreationGridItem = ({ thumbnail, children, title, link }) => {
   };
 
   const cardBgColor = {
-    //light: "#f9f9f9",
+    //light: "#e5e5e5",
     //dark: "#171717",
-    light: "#f5f5f5",
-    dark: "#232323",
+    light: "whiteAlpha.50",
+    dark: "whiteAlpha.50",
   };
 
   const cardBoxShadow = {
@@ -98,12 +98,15 @@ const CreationGridItem = ({ thumbnail, children, title, link }) => {
             }}
           >
             <Button
+              fontSize={["md", "md", "lg", "md", null, "lg"]}
+              pt={6}
+              pb={6}
               fontWeight={500}
               aria-label="Visit face recognition project page"
               rightIcon={<ExternalLinkIcon />}
               borderRadius={"5px"}
               _hover={{
-                color: "#f9f9f9",
+                color: "#e5e5e5",
                 bg: projectHoverBg[colorMode],
               }}
               color={projectIconColor[colorMode]}
