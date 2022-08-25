@@ -82,13 +82,13 @@ const Container = ({ children }) => {
           "flex-end",
           "flex-end",
           "space-between",
-          "space-between",
-          "space-between",
+          null,
+          null,
         ]}
         alignItems="flex-end"
         width="100%"
-        pl={[null, null, null, 8, 10, 10]}
-        pr={[4, 4, 8, 8, 10, 10]}
+        pl={[null, null, null, 8, 10, null]}
+        pr={[4, 4, 8, 8, 10, null]}
         pb={[4, 4, 6, null, null, 10]}
       >
         <Box
@@ -96,13 +96,14 @@ const Container = ({ children }) => {
           flexDirection={"column"}
           alignItems={"flex-start"}
         >
-          <Section delay="0.50">
+          <Box>
+            {/*<Section delay="0.50">*/}
             <NextLink href="#home" passHref>
               <Button
                 as="a"
                 color="red.400"
                 variant="link"
-                pt={[1, 2, 0.5, 0.5, 0.5, 0.5]} //review
+                pt={[1, 2, 0.5, null, null, null]}
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
                 fontSize={[null, null, null, "md", "sm", "md"]}
@@ -110,14 +111,15 @@ const Container = ({ children }) => {
                 / home
               </Button>
             </NextLink>
-          </Section>
+            {/*</Section>*/}
+          </Box>
           <Section delay="0.55">
             <NextLink href="#about-me" passHref>
               <Button
                 as="a"
                 color="red.400"
                 variant="link"
-                p={[1, 2, 0.5, 0.5, 0.5, 0.5]} //review
+                pt={[1, 2, 0.5, null, null, null]}
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
                 fontSize={[null, null, null, "md", "sm", "md"]}
@@ -132,7 +134,7 @@ const Container = ({ children }) => {
                 as="a"
                 color="red.400"
                 variant="link"
-                p={[1, 2, 0.5, null, null, null]} //review
+                pt={[1, 2, 0.5, null, null, null]}
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
                 fontSize={[null, null, null, "md", "sm", "md"]}
@@ -147,7 +149,7 @@ const Container = ({ children }) => {
                 as="a"
                 color="red.400"
                 variant="link"
-                p={[1, 2, 0.5, null, null, null]} //review
+                pt={[1, 2, 0.5, null, null, null]}
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
                 fontSize={[null, null, null, "md", "sm", "md"]}
@@ -174,7 +176,7 @@ const Container = ({ children }) => {
         </Box>
         <Box
           display={"flex"}
-          flexDirection={["row", "row", "row", "column", "column", "column"]}
+          flexDirection={["row", "row", "row", "column", null, null]}
           alignItems={["center", null, null, null, null, null]}
         >
           <Stack

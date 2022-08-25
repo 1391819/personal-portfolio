@@ -21,7 +21,7 @@ const GlobalStyle = ({ children }) => {
             color: #fefefe;
           }
           ::-moz-selection {
-            background: #ffb7b7;
+            background: #f5b790;
             color: #fefefe;
           }
           html {
@@ -53,9 +53,6 @@ const GlobalStyle = ({ children }) => {
             overflow-y: scroll;
             height: 100vh;
             scroll-behavior: smooth;
-          }
-          .chakra-tabs__tab :focus {
-            outline: "none" !important;
           }
         `}
       />
