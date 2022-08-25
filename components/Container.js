@@ -82,8 +82,8 @@ const Container = ({ children }) => {
           "flex-end",
           "flex-end",
           "space-between",
-          null,
-          null,
+          "space-between",
+          "space-between",
         ]}
         alignItems="flex-end"
         width="100%"
@@ -92,8 +92,7 @@ const Container = ({ children }) => {
         pb={[4, 4, 6, null, null, 10]}
       >
         <Box
-          border="1px solid red"
-          display={["none", "none", "none", "flex", null, null]}
+          display={["none", "none", "none", "flex", "flex", "flex"]}
           flexDirection={"column"}
           alignItems={"flex-start"}
         >
@@ -103,7 +102,7 @@ const Container = ({ children }) => {
                 as="a"
                 color="red.400"
                 variant="link"
-                pt={[1, 2, 0.5, null, null, null]} //review
+                pt={[1, 2, 0.5, 0.5, 0.5, 0.5]} //review
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
                 fontSize={[null, null, null, "md", "sm", "md"]}
@@ -118,7 +117,7 @@ const Container = ({ children }) => {
                 as="a"
                 color="red.400"
                 variant="link"
-                p={[1, 2, 0.5, null, null, null]} //review
+                p={[1, 2, 0.5, 0.5, 0.5, 0.5]} //review
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
                 fontSize={[null, null, null, "md", "sm", "md"]}
@@ -174,8 +173,8 @@ const Container = ({ children }) => {
           </Section> */}
         </Box>
         <Box
-          display={["flex", null, null, null, null, null]}
-          flexDirection={["row", null, null, "column", null, null]}
+          display={"flex"}
+          flexDirection={["row", "row", "row", "column", "column", "column"]}
           alignItems={["center", null, null, null, null, null]}
         >
           <Stack
