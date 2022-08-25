@@ -87,13 +87,23 @@ export default function Home() {
     dark: "0 0 10px rgba(0, 0, 0, 0.15)",
   };
 
-  const contentButtonColor = {
+  const tabButtonColor = {
     light: "#171717",
     dark: "#e5e5e5",
   };
 
-  const contentButtonBgColor = {
+  const tabButtonBgColor = {
     light: "",
+    dark: "",
+  };
+
+  const contentButtonColor = {
+    light: "#e5e5e5",
+    dark: "#e5e5e5",
+  };
+
+  const contentButtonBgColor = {
+    light: "teal.500",
     dark: "",
   };
 
@@ -521,8 +531,8 @@ export default function Home() {
                   pointerEvents="auto"
                   cursor="pointer"
                   userSelect="none"
-                  color={contentButtonColor[colorMode]}
-                  bg={contentButtonBgColor[colorMode]}
+                  color={tabButtonColor[colorMode]}
+                  bg={tabButtonBgColor[colorMode]}
                   _selected={{
                     //borderRight: ["2px solid", "0"],
                     //borderBottom: ["2px solid", "0"],
