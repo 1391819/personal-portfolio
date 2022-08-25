@@ -96,8 +96,7 @@ const Container = ({ children }) => {
           flexDirection={"column"}
           alignItems={"flex-start"}
         >
-          <Box>
-            {/*<Section delay="0.50">*/}
+          <Section delay="0.50">
             <NextLink href="#home" passHref>
               <Button
                 as="a"
@@ -111,8 +110,7 @@ const Container = ({ children }) => {
                 / home
               </Button>
             </NextLink>
-            {/*</Section>*/}
-          </Box>
+          </Section>
           <Section delay="0.55">
             <NextLink href="#about-me" passHref>
               <Button
