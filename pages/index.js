@@ -240,7 +240,7 @@ export default function Home() {
               <Box display="flex">
                 <Box as={motion.div} whileHover={{ scale: 1.05 }} pr={4} mt={8}>
                   <Button
-                    fontSize={["md", null, "lg", "md", null, "xl"]}
+                    fontSize={["md", null, "lg", "md", null, "lg"]}
                     pt={6}
                     pb={6}
                     fontWeight={500}
@@ -264,7 +264,7 @@ export default function Home() {
                 </Box>
                 <Box as={motion.div} whileHover={{ scale: 1.05 }} mt={8}>
                   <Button
-                    fontSize={["md", null, "lg", "md", null, "xl"]}
+                    fontSize={["md", null, "lg", "md", null, "lg"]}
                     pt={6}
                     pb={6}
                     fontWeight={500}
@@ -295,8 +295,8 @@ export default function Home() {
           id="about-me"
           display="flex"
           flexDirection="column"
-          justifyContent="center"
-          height="100vh"
+          //justifyContent="center"
+          //height="100vh"
         >
           {/*
           <motion.div
@@ -317,14 +317,14 @@ export default function Home() {
                     variant="section-title"
                     flex="1"
                     mb={2}
-                    fontSize={["3xl", "3.5xl", "4xl", "3.5xl", null, "4.5xl"]}
+                    fontSize={["3xl", "3.5xl", "4xl", "3.5xl", null, "4xl"]}
                     color={headingColor[colorMode]}
                   >
                     / about me
                   </Heading>
                   <Divider flex={["1", "1.3", "1.1", "1.3", null, "0.8"]} />
                 </Box>
-                <Box pt={4} fontSize={["sm", "md", "lg", "md", null, "lg"]}>
+                <Box pt={4} fontSize={["sm", "md", "lg", "md", null, "md"]}>
                   <BioSection>
                     <BioYear>1998</BioYear>
                     <Paragraph>Born in Milan, Italy.</Paragraph>
@@ -384,7 +384,7 @@ export default function Home() {
               </Box>
             </Box>
             <Box
-              fontSize={["sm", "md", "lg", "md", null, "lg"]}
+              fontSize={["sm", "md", "lg", "md", null, "md"]}
               pt={[4, 5, 4, null, null, null]}
             >
               <Paragraph>
@@ -471,13 +471,13 @@ export default function Home() {
           </FadeIn>
         </Box>
         <Box
-          className="full-page-scroll-section"
+          //className="full-page-scroll-section"
           id="experience"
           display="flex"
           flexDirection="column"
           alignItems="left"
           justifyContent="center"
-          height="100vh"
+          //height="100vh"
         >
           <FadeIn>
             <Box display="flex" alignItems="center">
@@ -486,7 +486,7 @@ export default function Home() {
                 variant="section-title"
                 flex="1"
                 mb={2}
-                fontSize={["3xl", "3.5xl", "4xl", "3.5xl", null, "4.5xl"]}
+                fontSize={["3xl", "3.5xl", "4xl", "3.5xl", null, "4xl"]}
                 color={headingColor[colorMode]}
               >
                 / experience
@@ -512,7 +512,7 @@ export default function Home() {
                 flexDirection={["row", "row", "row", "column", null, null]}
               >
                 <Tab
-                  fontSize={["sm", "md", "lg", "md", null, "lg"]}
+                  fontSize={["sm", "md", "lg", "md", null, "md"]}
                   mb={2}
                   mr={1.5}
                   pointerEvents="auto"
@@ -532,11 +532,11 @@ export default function Home() {
                   DDX
                 </Tab>
               </TabList>
-              <TabPanels fontSize={["sm", "md", "lg", "md", null, "lg"]} pl={2}>
+              <TabPanels fontSize={["sm", "md", "lg", "md", null, "md"]} pl={2}>
                 <TabPanel>
                   <Heading
                     as="h3"
-                    fontSize={["xl", "1xl", "2xl", "2xl", null, "3xl"]}
+                    fontSize={["xl", "1xl", "2xl", "2xl", null, "2xl"]}
                   >
                     <Highlight
                       query="DDX"
@@ -636,13 +636,13 @@ export default function Home() {
           </FadeIn>
         </Box>
         <Box
-          className="full-page-scroll-section"
+          //className="full-page-scroll-section"
           id="creations"
           display="flex"
           flexDirection="column"
-          alignItems="left"
-          justifyContent="center"
-          height="100vh"
+          //alignItems="left"
+          //justifyContent="center"
+          //height="100vh"
         >
           <FadeIn>
             <Box display="flex" alignItems="center">
@@ -651,7 +651,7 @@ export default function Home() {
                 variant="section-title"
                 flex="1"
                 mb={2}
-                fontSize={["3xl", "3.5xl", "4xl", "3.5xl", null, "4.5xl"]}
+                fontSize={["3xl", "3.5xl", "4xl", "3.5xl", null, "4xl"]}
                 color={headingColor[colorMode]}
               >
                 / creations

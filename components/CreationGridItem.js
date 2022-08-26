@@ -98,7 +98,7 @@ const CreationGridItem = ({ thumbnail, children, title, link }) => {
             }}
           >
             <Button
-              fontSize={["md", "md", "lg", "md", null, "lg"]}
+              fontSize={["md", "md", "lg", "md", null, "md"]}
               pt={6}
               pb={6}
               fontWeight={500}

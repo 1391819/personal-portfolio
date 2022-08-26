@@ -15,21 +15,21 @@ const Creations = () => {
           <Box pb={[1, 2, null, null, null, 4]}>
             <Badge
               className="stack-badge"
-              fontSize={["xs", "xs", "sm", "xs", null, "sm"]}
+              fontSize={["xs", "xs", "sm", "xs", null, "xs"]}
               colorScheme="blue"
             >
               Python
             </Badge>
             <Badge
               className="stack-badge"
-              fontSize={["xs", "xs", "sm", "xs", null, "sm"]}
+              fontSize={["xs", "xs", "sm", "xs", null, "xs"]}
               colorScheme="purple"
             >
               Opencv
             </Badge>
             <Badge
               className="stack-badge"
-              fontSize={["xs", "xs", "sm", "xs", null, "sm"]}
+              fontSize={["xs", "xs", "sm", "xs", null, "xs"]}
               colorScheme="red"
             >
               Raspberry

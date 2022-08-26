@@ -16,7 +16,7 @@ const Section = ({ children, id, delay = 0 }) => (
     initial={{ y: 40, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
     transition={{ duration: 0.8, delay }}
-    fontSize={["sm", "md", "lg", "md", null, "lg"]}
+    fontSize={["sm", "md", "lg", "md", null, "md"]}
   >
     {children}
   </StyledDiv>

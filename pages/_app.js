@@ -49,10 +49,10 @@ const GlobalStyle = ({ children }) => {
             scroll-snap-align: start;
           }
           .content-container {
-            scroll-snap-type: y proximity;
-            overflow-y: scroll;
-            height: 100vh;
-            scroll-behavior: smooth;
+            //scroll-snap-type: y proximity;
+            //overflow-y: scroll;
+            //height: 100vh;
+            //scroll-behavior: smooth;
           }
           .fixed-navbar {
             position: fixed;
