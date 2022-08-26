@@ -122,7 +122,7 @@ export default function Home() {
       <Stack
         spacing={20}
         m="0 auto 1rem auto"
-        maxWidth="600px"
+        maxWidth="700px"
         px={[8, null, null, null, null, null]}
       >
         <Box
@@ -134,7 +134,7 @@ export default function Home() {
           height="100vh"
         >
           <Section delay="0.3">
-            <Box zIndex={0}>
+            <Box display="flex" zIndex={0}>
               <LazyVoxelRaccoon />
             </Box>
           </Section>

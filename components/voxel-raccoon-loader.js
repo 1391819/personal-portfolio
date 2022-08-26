@@ -12,22 +12,15 @@ export const RaccoonSpinner = () => (
   />
 );
 
-{
-  /*Review sizes and margins in different view ports;
-  Put heading closer within the Threejs scene;
-  Move Threejs scene upwards, less margin at the top*/
-}
-
 export const RaccoonContainer = forwardRef(({ children }, ref) => (
   <Box
-    border="1px solid red"
     ref={ref}
     className="voxel-raccoon"
     m="auto"
-    mt={["-40px", "-45px", "-50px", "10px", null, "-120px"]}
-    mb={["-50px", "-50px", "-50px", "-40px", null, "-170px"]}
-    w={[300, 300, 420, 480, null, 500, 600]}
-    h={[300, 300, 420, 480, null, 500, 600]}
+    mt={["-80px", "-160px", "-200px", "-220px", "-230px", "-230px"]}
+    mb={["-60px", "-80px", "-120px", "-140px", "-170px", "-170px"]}
+    w={[300, 320, 500, 600, 700, null]}
+    h={[300, 320, 500, 600, 700, null]}
   >
     {children}
   </Box>
