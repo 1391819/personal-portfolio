@@ -49,7 +49,7 @@ const Container = ({ children }) => {
           flexDirection={"column"}
           alignItems={"flex-start"}
         >
-          <Section delay="0.50">
+          <Section delay="0.60">
             <NextLink href="#home" passHref>
               <Button
                 as="a"
@@ -64,7 +64,7 @@ const Container = ({ children }) => {
               </Button>
             </NextLink>
           </Section>
-          <Section delay="0.55">
+          <Section delay="0.65">
             <NextLink href="#about-me" passHref>
               <Button
                 as="a"
@@ -79,7 +79,7 @@ const Container = ({ children }) => {
               </Button>
             </NextLink>
           </Section>
-          <Section delay="0.60">
+          <Section delay="0.70">
             <NextLink href="#experience" passHref>
               <Button
                 as="a"
@@ -94,7 +94,7 @@ const Container = ({ children }) => {
               </Button>
             </NextLink>
           </Section>
-          <Section delay="0.65">
+          <Section delay="0.75">
             <NextLink href="#creations" passHref>
               <Button
                 as="a"
@@ -110,7 +110,9 @@ const Container = ({ children }) => {
             </NextLink>
           </Section>
         </Box>
-        <DarkModeSwitch />
+        <Section delay="0.85">
+          <DarkModeSwitch />
+        </Section>
       </Box>
     </Box>
   );
