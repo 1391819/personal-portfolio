@@ -7,16 +7,14 @@ const StyledDiv = chakra(motion.div, {
   },
 });
 
-const Section = ({ children, id, delay = 0 }) => (
+const Section = ({ children, delay = 0 }) => (
   <StyledDiv
-    id={id}
     display="flex"
     flexDirection="column"
-    //alignItems="flex-start"
-    initial={{ y: 40, opacity: 0 }}
+    initial={{ y: 80, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
-    transition={{ duration: 0.8, delay }}
-    fontSize={["sm", "md", "lg", "md", null, "md"]}
+    transition={{ duration: 0.6, delay }}
+    fontSize={["sm", null, "md", null, null, null]}
   >
     {children}
   </StyledDiv>

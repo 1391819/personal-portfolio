@@ -20,6 +20,7 @@ export const RaccoonSpinner = () => (
 
 export const RaccoonContainer = forwardRef(({ children }, ref) => (
   <Box
+    border="1px solid red"
     ref={ref}
     className="voxel-raccoon"
     m="auto"

@@ -20,65 +20,52 @@ const SocialMedia = () => {
   };
 
   return (
-    <Stack
-      display={"flex"}
-      flexDirection={"row"}
-      //flexDirection={["row", "row", "row", "column", null, null]}
-      ////alignItems={["center", "center", "flex-start"]}
-      //spacing={[0, null, null, 0.5, null, null]}
-      spacing={0}
-      pt={4}
-      //pb={[0, null, null, 2, null, null]}
-      //pr={[2, null, null, 0, null, null]}
-    >
+    <Stack display={"flex"} flexDirection={"row"} spacing={0} pt={4}>
       <Link href="https://github.com/1391819" target="_blank">
         <Button
           aria-label="Open Github"
-          fontSize={["sm", "md", null, "lg", null, null]}
           leftIcon={<Icon mr={-2} as={IoLogoGithub} />}
           borderRadius={"5px"}
+          p={0}
+          color={socialIconColor[colorMode]}
+          bg={socialBgColor[colorMode]}
+          fontSize={["lg", "md", null, null, null, null]}
           _hover={{
             color: "#e5e5e5",
             bg: socialHoverBg[colorMode],
           }}
-          p={0}
-          color={socialIconColor[colorMode]}
-          bg={socialBgColor[colorMode]}
-          pointerEvents="auto"
         ></Button>
       </Link>
       <Link href="https://www.instagram.com/roberto.nacu/" target="_blank">
         <Button
           aria-label="Open Instagram"
-          fontSize={["sm", "md", null, "lg", null, null]}
           leftIcon={<Icon mr={-2} as={IoLogoInstagram} />}
           borderRadius={"5px"}
+          p={0}
+          ml={2}
+          color={socialIconColor[colorMode]}
+          bg={socialBgColor[colorMode]}
+          fontSize={["lg", "md", null, null, null, null]}
           _hover={{
             color: "#e5e5e5",
             bg: socialHoverBg[colorMode],
           }}
-          p={0}
-          ml={1}
-          color={socialIconColor[colorMode]}
-          bg={socialBgColor[colorMode]}
-          pointerEvents="auto"
         ></Button>
       </Link>
       <Link href="https://www.linkedin.com/in/robertonacu/" target="_blank">
         <Button
           aria-label="Open Instagram"
-          fontSize={["sm", "md", null, "lg", null, null]}
           leftIcon={<Icon mr={-2} as={IoLogoLinkedin} />}
           borderRadius={"5px"}
+          p={0}
+          ml={2}
+          color={socialIconColor[colorMode]}
+          bg={socialBgColor[colorMode]}
+          fontSize={["lg", "md", null, null, null, null]}
           _hover={{
             color: "#e5e5e5",
             bg: socialHoverBg[colorMode],
           }}
-          p={0}
-          ml={1}
-          color={socialIconColor[colorMode]}
-          bg={socialBgColor[colorMode]}
-          pointerEvents="auto"
         ></Button>
       </Link>
     </Stack>

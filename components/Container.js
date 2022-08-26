@@ -2,7 +2,6 @@ import React from "react";
 import { useColorMode, Button, Flex, Box } from "@chakra-ui/react";
 import NextLink from "next/link";
 import DarkModeSwitch from "../components/DarkModeSwitch";
-//import SocialMedia from "./SocialMedia.js";
 import Section from "./Section.js";
 
 const Container = ({ children }) => {
@@ -25,15 +24,7 @@ const Container = ({ children }) => {
 
   return (
     <Box bg={bgColor[colorMode]} color={color[colorMode]}>
-      <Flex
-        as="main"
-        justifyContent="center"
-        flexDirection="column"
-        px={[1, 4, null, null, null, 5]} // review
-        mt={[0, 8, 0, null, null, null]} // review
-      >
-        {children}
-      </Flex>
+      <Flex as="main">{children}</Flex>
       <Box
         as="nav"
         className="fixed-navbar"
@@ -48,12 +39,13 @@ const Container = ({ children }) => {
         ]}
         alignItems={"flex-end"}
         width={"100%"}
-        pl={[null, null, null, 8, 10, null]}
-        pr={[4, 4, 8, 8, 10, null]}
-        pb={[2, 4, 6, null, null, 10]}
+        //pl={[null, null, null, 8, 10, null]}
+        //pr={[4, 4, 8, 8, 10, null]}
+        //pb={[2, 4, 6, null, null, 10]}
+        p={[4, 4, 8, 8, 10, null]}
       >
         <Box
-          display={["none", "none", "none", "flex", "flex", "flex"]}
+          display={["none", null, null, "flex", null, null]}
           flexDirection={"column"}
           alignItems={"flex-start"}
         >
@@ -63,10 +55,10 @@ const Container = ({ children }) => {
                 as="a"
                 color="red.400"
                 variant="link"
-                pt={[1, 2, 0.5, null, null, null]}
+                //pt={[0, 0, 0.5, null, null, null]}
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
-                fontSize={[null, null, null, "md", "sm", "md"]}
+                fontSize={[null, null, null, "md", null, null]}
               >
                 / home
               </Button>
@@ -78,10 +70,10 @@ const Container = ({ children }) => {
                 as="a"
                 color="red.400"
                 variant="link"
-                pt={[1, 2, 0.5, null, null, null]}
+                pt={[0, 0, 0.5, null, null, null]}
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
-                fontSize={[null, null, null, "md", "sm", "md"]}
+                fontSize={[null, null, null, "md", null, null]}
               >
                 / about me
               </Button>
@@ -93,10 +85,10 @@ const Container = ({ children }) => {
                 as="a"
                 color="red.400"
                 variant="link"
-                pt={[1, 2, 0.5, null, null, null]}
+                pt={[0, 0, 0.5, null, null, null]}
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
-                fontSize={[null, null, null, "md", "sm", "md"]}
+                fontSize={[null, null, null, "md", null, null]}
               >
                 / experience
               </Button>
@@ -108,23 +100,17 @@ const Container = ({ children }) => {
                 as="a"
                 color="red.400"
                 variant="link"
-                pt={[1, 2, 0.5, null, null, null]}
+                pt={[0, 0, 0.5, null, null, null]}
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
-                fontSize={[null, null, null, "md", "sm", "md"]}
+                fontSize={[null, null, null, "md", null, null]}
               >
                 <Box>/ creations</Box>
               </Button>
             </NextLink>
           </Section>
         </Box>
-        <Box
-          display={"flex"}
-          flexDirection={["row", "row", "row", "column", null, null]}
-          alignItems={["center", null, null, null, null, null]}
-        >
-          <DarkModeSwitch />
-        </Box>
+        <DarkModeSwitch />
       </Box>
     </Box>
   );

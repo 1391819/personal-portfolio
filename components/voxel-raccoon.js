@@ -108,7 +108,6 @@ const VoxelRaccoon = () => {
       };
 
       return () => {
-        //console.log("unmount")
         cancelAnimationFrame(req);
         renderer.dispose();
       };

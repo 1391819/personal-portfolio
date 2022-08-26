@@ -30,9 +30,7 @@ import Paragraph from "../components/Paragraph";
 import { ChevronRightIcon, DownloadIcon, ChatIcon } from "@chakra-ui/icons";
 import VoxelRaccoonLoader from "../components/voxel-raccoon-loader.js";
 import Creations from "../components/Creations.js";
-import ContactForm from "../components/ContactForm.js";
 import { saveAs } from "file-saver";
-import FadeIn from "../components/FadeIn.js";
 import SocialMedia from "../components/SocialMedia.js";
 
 // typewriter effect
@@ -129,40 +127,6 @@ export default function Home() {
   };
 
   const router = useRouter();
-
-  {
-    /*
-
-  const variants = {
-    visible: { opacity: 1, scale: 1 },
-    hidden: { opacity: 0, scale: 0 },
-  };
-
-  const control = useAnimation();
-  const control2 = useAnimation();
-  const [ref, inView] = useInView();
-  const [ref2, inView2] = useInView();
-
-  useEffect(() => {
-    if (inView) {
-      control.start("visible");
-      console.log("inView", inView);
-    } else {
-      control.start("hidden");
-      console.log("inView", inView);
-    }
-  }, [control, inView]);
-
-  useEffect(() => {
-    if (inView2) {
-      control2.start("visible");
-    } else {
-      control2.start("hidden");
-    }
-  }, [control2, inView2]);
-
-  */
-  }
 
   const handleResumeDownload = () => {
     saveAs(
@@ -682,34 +646,6 @@ export default function Home() {
             <Creations />
           </Box>
         </Box>
-        {/*
-        <Box
-          id="contact-me"
-          className="full-page-scroll-section"
-          display="flex"
-          flexDirection="column"
-          alignItems="left"
-          justifyContent="center"
-          height="100vh"
-        >
-          <FadeIn>
-            <Box display="flex" alignItems="center">
-              <Heading
-                as="h3"
-                flex="1"
-                mb={2}
-                variant="section-title"
-                fontSize={"4xl"}
-                color={headingColor[colorMode]}
-              >
-                / contact me
-              </Heading>
-              <Divider flex="1.9" />
-            </Box>
-            <ContactForm />
-          </FadeIn>
-        </Box>
-        */}
         <Box
           fontSize={["xs", null, "sm", "xs", null, "sm"]}
           display="flex"
