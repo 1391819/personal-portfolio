@@ -14,7 +14,7 @@ export const RaccoonSpinner = () => (
 
 export const RaccoonContainer = forwardRef(({ children }, ref) => (
   <Box
-    boxShadow="lg"
+    boxShadow="md"
     ref={ref}
     className="voxel-raccoon"
     m="auto"

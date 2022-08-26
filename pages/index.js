@@ -294,7 +294,7 @@ export default function Home() {
           className="full-page-scroll-section"
           id="about-me"
           display="flex"
-          flexDirection="column"
+          //flexDirection="column"
           //justifyContent="center"
           //height="100vh"
         >
@@ -308,7 +308,7 @@ export default function Home() {
             transition="5s"
           >*/}
 
-          <FadeIn>
+          <Box>
             <Box display={["flex", null, null, null, null, null]}>
               <Box flexGrow={1}>
                 <Box display="flex" alignItems="center">
@@ -468,7 +468,7 @@ export default function Home() {
                 video games and read productivity aimed books or articles.
               </Paragraph>
             </Box>
-          </FadeIn>
+          </Box>
         </Box>
         <Box
           //className="full-page-scroll-section"
@@ -479,7 +479,7 @@ export default function Home() {
           justifyContent="center"
           //height="100vh"
         >
-          <FadeIn>
+          <Box>
             <Box display="flex" alignItems="center">
               <Heading
                 as="h2"
@@ -533,7 +533,7 @@ export default function Home() {
                 </Tab>
               </TabList>
               <TabPanels fontSize={["sm", "md", "lg", "md", null, "md"]} pl={2}>
-                <TabPanel>
+                <TabPanel pb={0}>
                   <Heading
                     as="h3"
                     fontSize={["xl", "1xl", "2xl", "2xl", null, "2xl"]}
@@ -633,7 +633,7 @@ export default function Home() {
                 </TabPanel>
               </TabPanels>
             </Tabs>
-          </FadeIn>
+          </Box>
         </Box>
         <Box
           //className="full-page-scroll-section"
@@ -644,7 +644,7 @@ export default function Home() {
           //justifyContent="center"
           //height="100vh"
         >
-          <FadeIn>
+          <Box>
             <Box display="flex" alignItems="center">
               <Heading
                 as="h2"
@@ -659,7 +659,7 @@ export default function Home() {
               <Divider flex={["1", "1.2", "2", "2.2", null, "1.6"]} />
             </Box>
             <Creations />
-          </FadeIn>
+          </Box>
         </Box>
         {/*
         <Box

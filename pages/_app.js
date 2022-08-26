@@ -46,7 +46,7 @@ const GlobalStyle = ({ children }) => {
             color: ${colorMode === "light" ? "#319795" : "#4FD1C5"};
           }
           .full-page-scroll-section {
-            scroll-snap-align: start;
+            //scroll-snap-align: start;
           }
           .content-container {
             //scroll-snap-type: y proximity;
