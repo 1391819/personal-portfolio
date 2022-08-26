@@ -74,7 +74,7 @@ const CreationGridItem = ({ thumbnail, children, title, link }) => {
               bg={projectBgColor[colorMode]}
               rightIcon={<ExternalLinkIcon />}
               borderRadius={"5px"}
-              fontSize={["md", null, null, null, null, null]}
+              fontSize={["sm", null, "md", null, null, null]}
               fontWeight={500}
               pt={6}
               pb={6}
