@@ -110,7 +110,7 @@ const Container = ({ children }) => {
             </NextLink>
           </Section>
         </Box>
-        <Section delay="0.85">
+        <Section delay="0.75">
           <DarkModeSwitch />
         </Section>
       </Box>
