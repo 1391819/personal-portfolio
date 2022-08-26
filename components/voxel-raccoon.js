@@ -51,7 +51,7 @@ const VoxelRaccoon = () => {
       container.appendChild(renderer.domElement);
       setRenderer(renderer);
 
-      const scale = scH * 0.005 + 3;
+      const scale = scH * 0.005 + 8;
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,

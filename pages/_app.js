@@ -1,6 +1,5 @@
 import "@fontsource/m-plus-rounded-1c";
 
-// chakraui provider setup
 import {
   ChakraProvider,
   ColorModeProvider,
@@ -17,7 +16,7 @@ const GlobalStyle = ({ children }) => {
       <Global
         styles={css`
           ::selection {
-            background-color: #f5b790;
+            background-color: #f5b79f;
             color: #fefefe;
           }
           ::-moz-selection {
@@ -32,7 +31,7 @@ const GlobalStyle = ({ children }) => {
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            background: ${colorMode === "light" ? "white" : "#171717"};
+            background: ${colorMode === "light" ? "#EFE7DA" : "#201F24"};
           }
           .grid-item-thumbnail {
             border-radius: 12px;
@@ -44,15 +43,6 @@ const GlobalStyle = ({ children }) => {
           .highlight-word-banner {
             background-color: rgba(0, 0, 0, 0);
             color: ${colorMode === "light" ? "#319795" : "#4FD1C5"};
-          }
-          .full-page-scroll-section {
-            //scroll-snap-align: start;
-          }
-          .content-container {
-            //scroll-snap-type: y proximity;
-            //overflow-y: scroll;
-            //height: 100vh;
-            //scroll-behavior: smooth;
           }
           .fixed-navbar {
             position: fixed;
@@ -73,7 +63,7 @@ function MyApp({ Component, pageProps }) {
     <ChakraProvider resetCSS theme={customTheme}>
       <ColorModeProvider
         options={{
-          initialColorMode: "light",
+          initialColorMode: "dark",
           useSystemColorMode: true,
         }}
       >

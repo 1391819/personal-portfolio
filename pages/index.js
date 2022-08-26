@@ -33,6 +33,7 @@ import Creations from "../components/Creations.js";
 import ContactForm from "../components/ContactForm.js";
 import { saveAs } from "file-saver";
 import FadeIn from "../components/FadeIn.js";
+import SocialMedia from "../components/SocialMedia.js";
 
 // typewriter effect
 import Typed from "react-typed";
@@ -176,23 +177,23 @@ export default function Home() {
         <title>Roberto Nacu</title>
       </Head>
       <Stack
-        spacing={8}
+        spacing={20}
         m="0 auto 1rem auto"
-        maxWidth="700px"
+        maxWidth="600px"
         px={[8, null, 4, null, null, null]}
       >
         <Box
-          className="full-page-scroll-section"
           as="main"
           id="home"
           display="flex"
           flexDirection="column"
-          alignItems="left"
           justifyContent="center"
           height="100vh"
         >
           <Section delay="0.3">
-            <LazyVoxelRaccoon />
+            <Box display="flex" zIndex={0}>
+              <LazyVoxelRaccoon />
+            </Box>
           </Section>
           <Section>
             <Heading
@@ -201,6 +202,7 @@ export default function Home() {
               fontSize={["4xl", null, "4.5xl", "4xl", null, "5xl"]}
               mt={20}
               mb={2}
+              zIndex={1}
             >
               <Typed
                 strings={[
@@ -212,79 +214,98 @@ export default function Home() {
             </Heading>
           </Section>
           <Section delay="0.4">
-            <Paragraph>
-              <Highlight
-                query={[
-                  //"multilingual artificial intelligence graduate",
-                  "full-stack development",
-                  "machine learning",
-                  "human-computer interactions",
-                ]}
-                styles={{
-                  fontWeight: "600",
-                  color: highlightColor[colorMode],
-                  //textDecoration: "underline",
-                  //bg: highlightBg[colorMode],
-                  //px: "2",
-                  //py: "0.2",
-                  //rounded: "full",
-                }}
-              >
-                I&apos;m a multilingual artificial intelligence graduate based
-                in Newcastle upon Tyne. I have a great interest in full-stack
-                development, machine learning, human-computer interactions, and
-                everything in between.
-              </Highlight>
-            </Paragraph>
+            <Box zIndex={1}>
+              <Paragraph>
+                <Highlight
+                  query={[
+                    //"multilingual artificial intelligence graduate",
+                    "full-stack development",
+                    "machine learning",
+                    "human-computer interactions",
+                  ]}
+                  styles={{
+                    fontWeight: "600",
+                    color: highlightColor[colorMode],
+                    //textDecoration: "underline",
+                    //bg: highlightBg[colorMode],
+                    //px: "2",
+                    //py: "0.2",
+                    //rounded: "full",
+                  }}
+                >
+                  I&apos;m a multilingual artificial intelligence graduate based
+                  in Newcastle upon Tyne. I have a great interest in full-stack
+                  development, machine learning, human-computer interactions,
+                  and everything in between.
+                </Highlight>
+              </Paragraph>
+            </Box>
             <Section delay="0.6">
-              <Box display="flex">
-                <Box as={motion.div} whileHover={{ scale: 1.05 }} pr={4} mt={8}>
-                  <Button
-                    fontSize={["md", null, "lg", "md", null, "lg"]}
-                    pt={6}
-                    pb={6}
-                    fontWeight={500}
-                    aria-label="Contact me"
-                    rightIcon={<ChatIcon />}
-                    variant="outline"
-                    borderRadius={"5px"}
-                    _hover={{
-                      color: contentButtonHoverColor[colorMode],
-                      bg: contentButtonHoverBg[colorMode],
-                      borderColor: contentButtonHoverBorderColor[colorMode],
-                    }}
-                    borderColor={contentButtonBorderColor[colorMode]}
-                    color={contentButtonColor[colorMode]}
-                    bg={contentButtonBgColor[colorMode]}
-                    pointerEvents="auto"
-                    onClick={() => router.push("mailto:roberto.nacu@gmail.com")}
+              <Box
+                display="flex"
+                alignItems="flex-end"
+                justifyContent="space-between"
+                flexWrap="wrap"
+              >
+                <Box display="flex">
+                  <Box
+                    as={motion.div}
+                    whileHover={{ scale: 1.05 }}
+                    pr={4}
+                    mt={8}
                   >
-                    Contact me
-                  </Button>
+                    <Button
+                      fontSize={["md", null, "lg", "md", null, "lg"]}
+                      pt={6}
+                      pb={6}
+                      fontWeight={500}
+                      aria-label="Contact me"
+                      rightIcon={<ChatIcon />}
+                      variant="outline"
+                      borderRadius={"5px"}
+                      _hover={{
+                        color: contentButtonHoverColor[colorMode],
+                        bg: contentButtonHoverBg[colorMode],
+                        borderColor: contentButtonHoverBorderColor[colorMode],
+                      }}
+                      borderColor={contentButtonBorderColor[colorMode]}
+                      color={contentButtonColor[colorMode]}
+                      bg={contentButtonBgColor[colorMode]}
+                      pointerEvents="auto"
+                      onClick={() =>
+                        router.push("mailto:roberto.nacu@gmail.com")
+                      }
+                    >
+                      Contact me
+                    </Button>
+                  </Box>
+                  <Box as={motion.div} whileHover={{ scale: 1.05 }} mt={8}>
+                    <Button
+                      fontSize={["md", null, "lg", "md", null, "lg"]}
+                      pt={6}
+                      pb={6}
+                      fontWeight={500}
+                      aria-label="Download resume"
+                      rightIcon={<DownloadIcon />}
+                      variant="outline"
+                      borderRadius={"5px"}
+                      _hover={{
+                        color: contentButtonHoverColor[colorMode],
+                        bg: contentButtonHoverBg[colorMode],
+                        borderColor: contentButtonHoverBorderColor[colorMode],
+                      }}
+                      borderColor={contentButtonBorderColor[colorMode]}
+                      color={contentButtonColor[colorMode]}
+                      bg={contentButtonBgColor[colorMode]}
+                      pointerEvents="auto"
+                      onClick={handleResumeDownload}
+                    >
+                      Resume
+                    </Button>
+                  </Box>
                 </Box>
-                <Box as={motion.div} whileHover={{ scale: 1.05 }} mt={8}>
-                  <Button
-                    fontSize={["md", null, "lg", "md", null, "lg"]}
-                    pt={6}
-                    pb={6}
-                    fontWeight={500}
-                    aria-label="Download resume"
-                    rightIcon={<DownloadIcon />}
-                    variant="outline"
-                    borderRadius={"5px"}
-                    _hover={{
-                      color: contentButtonHoverColor[colorMode],
-                      bg: contentButtonHoverBg[colorMode],
-                      borderColor: contentButtonHoverBorderColor[colorMode],
-                    }}
-                    borderColor={contentButtonBorderColor[colorMode]}
-                    color={contentButtonColor[colorMode]}
-                    bg={contentButtonBgColor[colorMode]}
-                    pointerEvents="auto"
-                    onClick={handleResumeDownload}
-                  >
-                    Resume
-                  </Button>
+                <Box>
+                  <SocialMedia />
                 </Box>
               </Box>
             </Section>
@@ -322,7 +343,7 @@ export default function Home() {
                   >
                     / about me
                   </Heading>
-                  <Divider flex={["1", "1.3", "1.1", "1.3", null, "0.8"]} />
+                  {/*<Divider flex={["1", "1.3", "1.1", "1.3", null, "0.8"]} />*/}
                 </Box>
                 <Box pt={4} fontSize={["sm", "md", "lg", "md", null, "md"]}>
                   <BioSection>
@@ -491,7 +512,7 @@ export default function Home() {
               >
                 / experience
               </Heading>
-              <Divider flex={["0.8", "1.1", "1.8", "2", null, "1.3"]} />
+              {/*<Divider flex={["0.8", "1.1", "1.8", "2", null, "1.3"]} /> */}
             </Box>
 
             <Tabs
@@ -656,7 +677,7 @@ export default function Home() {
               >
                 / creations
               </Heading>
-              <Divider flex={["1", "1.2", "2", "2.2", null, "1.6"]} />
+              {/*<Divider flex={["1", "1.2", "2", "2.2", null, "1.6"]} /> */}
             </Box>
             <Creations />
           </Box>

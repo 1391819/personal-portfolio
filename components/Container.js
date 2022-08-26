@@ -1,23 +1,9 @@
 import React from "react";
-import {
-  useColorMode,
-  Button,
-  Flex,
-  Box,
-  Stack,
-  Link,
-  Icon,
-  IconButton,
-} from "@chakra-ui/react";
+import { useColorMode, Button, Flex, Box } from "@chakra-ui/react";
 import NextLink from "next/link";
-import styled from "@emotion/styled";
 import DarkModeSwitch from "../components/DarkModeSwitch";
-import Paragraph from "./Paragraph.js";
+//import SocialMedia from "./SocialMedia.js";
 import Section from "./Section.js";
-
-import { motion } from "framer-motion";
-
-import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from "react-icons/io5";
 
 const Container = ({ children }) => {
   const { colorMode } = useColorMode();
@@ -27,55 +13,24 @@ const Container = ({ children }) => {
     dark: "#201F24",
   };
 
-  const navHoverBg = {
-    light: "teal.600",
-    dark: "teal.200",
-  };
-
-  const socialIconColor = {
-    light: "red.400",
-    dark: "red.400",
-  };
-
-  const socialBgColor = {
-    light: "whiteAlpha",
-    dark: "blackAlpha",
-  };
-
-  const socialHoverBg = {
-    light: "teal.500",
-    dark: "teal.300",
-  };
-
   const color = {
     light: "#171717",
     dark: "#e5e5e5",
   };
 
-  {
-    /*    //backgrop-filter: saturate(100%) blur(20px);
-      //transition: height 0.5s, line-height 0.5s;
-
-  const StickyNav = styled(Flex)`
-    position: fixed;
-    z-index: 100;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0);
-    pointer-events: none;
-  `;
-  */
-  }
+  const navHoverBg = {
+    light: "teal.600",
+    dark: "teal.200",
+  };
 
   return (
-    <div className="content-container">
+    <Box bg={bgColor[colorMode]} color={color[colorMode]}>
       <Flex
         as="main"
         justifyContent="center"
         flexDirection="column"
-        bg={bgColor[colorMode]}
-        color={color[colorMode]}
-        //px={[1, 4, null, null, null, 5]} // review
-        //mt={[0, 8, 0, null, null, null]} // review
+        px={[1, 4, null, null, null, 5]} // review
+        mt={[0, 8, 0, null, null, null]} // review
       >
         {children}
       </Flex>
@@ -162,94 +117,16 @@ const Container = ({ children }) => {
               </Button>
             </NextLink>
           </Section>
-          {/*
-          <Section delay="0.70">
-            <NextLink href="#contact-me" passHref>
-              <Button
-                as="a"
-                color="red.400"
-                variant="link"
-                p={[1, 2, 0.5]}
-                _hover={{ color: navHoverBg[colorMode] }}
-                pointerEvents="auto"
-              >
-                <Box>/ contact me</Box>
-              </Button>
-            </NextLink>
-          </Section> */}
         </Box>
         <Box
           display={"flex"}
           flexDirection={["row", "row", "row", "column", null, null]}
           alignItems={["center", null, null, null, null, null]}
         >
-          <Stack
-            display={["flex"]}
-            flexDirection={["row", "row", "row", "column", null, null]}
-            //alignItems={["center", "center", "flex-start"]}
-            spacing={[0, null, null, 0.5, null, null]}
-            pb={[0, null, null, 2, null, null]}
-            pr={[2, null, null, 0, null, null]}
-          >
-            <Link href="https://github.com/1391819" target="_blank">
-              <Button
-                aria-label="Open Github"
-                fontSize={["sm", "md", null, "lg", null, null]}
-                leftIcon={<Icon mr={-2} as={IoLogoGithub} />}
-                borderRadius={"5px"}
-                _hover={{
-                  color: "#e5e5e5",
-                  bg: socialHoverBg[colorMode],
-                }}
-                p={0}
-                color={socialIconColor[colorMode]}
-                bg={socialBgColor[colorMode]}
-                pointerEvents="auto"
-              ></Button>
-            </Link>
-            <Link
-              href="https://www.instagram.com/roberto.nacu/"
-              target="_blank"
-            >
-              <Button
-                aria-label="Open Instagram"
-                fontSize={["sm", "md", null, "lg", null, null]}
-                leftIcon={<Icon mr={-2} as={IoLogoInstagram} />}
-                borderRadius={"5px"}
-                _hover={{
-                  color: "#e5e5e5",
-                  bg: socialHoverBg[colorMode],
-                }}
-                p={0}
-                color={socialIconColor[colorMode]}
-                bg={socialBgColor[colorMode]}
-                pointerEvents="auto"
-              ></Button>
-            </Link>
-            <Link
-              href="https://www.linkedin.com/in/robertonacu/"
-              target="_blank"
-            >
-              <Button
-                aria-label="Open Instagram"
-                fontSize={["sm", "md", null, "lg", null, null]}
-                leftIcon={<Icon mr={-2} as={IoLogoLinkedin} />}
-                borderRadius={"5px"}
-                _hover={{
-                  color: "#e5e5e5",
-                  bg: socialHoverBg[colorMode],
-                }}
-                p={0}
-                color={socialIconColor[colorMode]}
-                bg={socialBgColor[colorMode]}
-                pointerEvents="auto"
-              ></Button>
-            </Link>
-          </Stack>
           <DarkModeSwitch />
         </Box>
       </Box>
-    </div>
+    </Box>
   );
 };
 
