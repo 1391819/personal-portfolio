@@ -30,8 +30,8 @@ const CreationGridItem = ({ thumbnail, children, title, link }) => {
   const cardBgColor = {
     //light: "#e5e5e5",
     //dark: "#171717",
-    light: "whiteAlpha.50",
-    dark: "whiteAlpha.50",
+    light: "#F5F1E8",
+    dark: "#313035",
   };
 
   const cardBoxShadow = {

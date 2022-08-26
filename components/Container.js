@@ -23,8 +23,8 @@ const Container = ({ children }) => {
   const { colorMode } = useColorMode();
 
   const bgColor = {
-    light: "#e5e5e5",
-    dark: "#171717",
+    light: "#EFE7DA",
+    dark: "#201F24",
   };
 
   const navHoverBg = {
