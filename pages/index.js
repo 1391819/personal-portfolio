@@ -118,6 +118,7 @@ export default function Home() {
     <Container>
       <Head>
         <title>Roberto Nacu</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <Stack
         spacing={20}
