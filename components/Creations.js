@@ -2,7 +2,7 @@ import { SimpleGrid, Box, Badge } from "@chakra-ui/react";
 import CreationGridItem from "./CreationGridItem.js";
 
 // thumbnails
-import faceRecognitionThumbnail from "../public/images/creations/face-recognition/pca.jpg";
+import faceRecognitionThumbnail from "../public/images/creations/face-recognition/analysis.jpg";
 
 const Creations = () => {
   return (
