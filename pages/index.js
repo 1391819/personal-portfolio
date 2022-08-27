@@ -160,7 +160,7 @@ export default function Home() {
                 <Highlight
                   query={[
                     "full-stack development",
-                    "machine learning",
+                    "AI/ML",
                     "human-computer interactions",
                   ]}
                   styles={{
@@ -170,8 +170,8 @@ export default function Home() {
                 >
                   I&apos;m a multilingual artificial intelligence graduate based
                   in Newcastle upon Tyne. I have a great interest in full-stack
-                  development, machine learning, human-computer interactions,
-                  and everything in between.
+                  development, AI/ML, human-computer interactions, and
+                  everything in between.
                 </Highlight>
               </Paragraph>
             </Box>
@@ -263,9 +263,7 @@ export default function Home() {
                 </BioSection>
                 <BioSection>
                   <BioYear>2016</BioYear>
-                  <Paragraph>
-                    Diploma in Computer Science. Final grade 84%.
-                  </Paragraph>
+                  <Paragraph>Diploma in Computer Science.</Paragraph>
                 </BioSection>
                 <BioSection>
                   <BioYear>2017</BioYear>
@@ -276,9 +274,8 @@ export default function Home() {
                 <BioSection>
                   <BioYear>2022</BioYear>
                   <Paragraph>
-                    Bsc in Computer Science with Artificial Intelligence at
-                    Northumbria University. Achieved a first classification
-                    degree.
+                    Bsc in Computer Science with AI at Northumbria University.
+                    Achieved a first class degree.
                   </Paragraph>
                 </BioSection>
               </Box>
@@ -357,8 +354,9 @@ export default function Home() {
             </Box>
             <Paragraph>
               Outside of work, I&apos;m interested in following the advancements
-              of science related fields. I also play a lot of video games and
-              read productivity aimed books or articles.
+              of science and art related fields. I also play a lot of video
+              games, read productivity resources and have a deep passion for
+              learning foreign languages.
             </Paragraph>
           </Box>
         </Box>
