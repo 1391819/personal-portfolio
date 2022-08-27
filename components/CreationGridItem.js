@@ -23,8 +23,8 @@ const CreationGridItem = ({ thumbnail, children, title, link }) => {
     dark: "red.400",
   };
   const cardBgColor = {
-    light: "#F5F1E8",
-    dark: "#313035",
+    light: "#e7dbc8", //e7dbc8 // F5F1E8
+    dark: "#2c2b32", //38373f //2c2b32 //313035
   };
   const cardBoxShadow = {
     light: "0 5px 5px rgba(0, 0, 0, 0.1)",
@@ -50,13 +50,17 @@ const CreationGridItem = ({ thumbnail, children, title, link }) => {
           boxShadow: cardHoverBoxShadow[colorMode],
         }}
       >
-        <Image
-          alt="Project thumbnail"
-          height={230}
+        <Box
+          display="flex"
+          mt={4}
+          mb={8}
+          borderRadius="5px"
+          overflow="hidden"
+          height={190}
           width={282}
-          objectFit={"contain"}
-          src={thumbnail}
-        />
+        >
+          <Image alt="Project thumbnail" objectFit={"cover"} src={thumbnail} />
+        </Box>
 
         <Stack mt={-4} mb={2} align="center">
           {children}
