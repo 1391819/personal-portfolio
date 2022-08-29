@@ -327,6 +327,13 @@ export default function Home() {
                     />
                     <Paragraph>HTML & CSS</Paragraph>
                   </ListItem>
+                  <ListItem display="flex" alignItems="center">
+                    <ListIcon
+                      as={ChevronRightIcon}
+                      color={listIconsColor[colorMode]}
+                    />
+                    <Paragraph>JavaScript</Paragraph>
+                  </ListItem>
                 </List>
                 <List spacing={1} pt={4} pb={8}>
                   <ListItem display="flex" alignItems="center">
@@ -349,6 +356,13 @@ export default function Home() {
                       color={listIconsColor[colorMode]}
                     />
                     <Paragraph>Keras</Paragraph>
+                  </ListItem>
+                  <ListItem display="flex" alignItems="center">
+                    <ListIcon
+                      as={ChevronRightIcon}
+                      color={listIconsColor[colorMode]}
+                    />
+                    <Paragraph>SQL</Paragraph>
                   </ListItem>
                 </List>
               </Box>
