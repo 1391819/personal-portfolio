@@ -161,10 +161,10 @@ export default function Home() {
                     color: highlightColor[colorMode],
                   }}
                 >
-                  I&apos;m a multilingual artificial intelligence graduate based
-                  in Newcastle upon Tyne. I have a great interest in full-stack
-                  development, AI/ML, human-computer interactions, and
-                  everything in between.
+                  I&apos;m a multilingual computer science with artificial
+                  intelligence graduate based in Newcastle upon Tyne. I have a
+                  great interest in full-stack development, AI/ML,
+                  human-computer interactions, and everything in between.
                 </Highlight>
               </Paragraph>
             </Box>
