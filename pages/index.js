@@ -32,7 +32,6 @@ import Section from "../components/Section.js";
 import { ChevronRightIcon, DownloadIcon, ChatIcon } from "@chakra-ui/icons";
 
 import Typed from "react-typed";
-import { saveAs } from "file-saver";
 
 // raccoon voxel component
 const LazyVoxelRaccoon = dynamic(
@@ -46,13 +45,6 @@ const LazyVoxelRaccoon = dynamic(
 export default function Home() {
   const router = useRouter();
   const { colorMode } = useColorMode();
-
-  const handleResumeDownload = () => {
-    saveAs(
-      "https://drive.google.com/uc?export=download&id=1F70unPq8qkB01ZCiDJSeK38K-WlYSn-9",
-      "roberto-nacu.docx"
-    );
-  };
 
   const headingColor = {
     light: "teal.500",
@@ -184,12 +176,7 @@ export default function Home() {
                 flexWrap="wrap"
               >
                 <Box display="flex">
-                  <Box
-                    as={motion.div}
-                    whileHover={{ scale: 1.05 }}
-                    pr={4}
-                    mt={8}
-                  >
+                  <Box as={motion.div} whileHover={{ scale: 1.05 }} mt={8}>
                     <Button
                       aria-label="Contact me"
                       fontSize={["md", null, "lg", null, null, null]}
@@ -212,29 +199,6 @@ export default function Home() {
                       }
                     >
                       Contact me
-                    </Button>
-                  </Box>
-                  <Box as={motion.div} whileHover={{ scale: 1.05 }} mt={8}>
-                    <Button
-                      aria-label="Download resume"
-                      fontSize={["md", null, "lg", null, null, null]}
-                      fontWeight={500}
-                      rightIcon={<DownloadIcon />}
-                      borderRadius={"5px"}
-                      variant="outline"
-                      pt={6}
-                      pb={6}
-                      borderColor={contentButtonBorderColor[colorMode]}
-                      color={contentButtonColor[colorMode]}
-                      bg={contentButtonBgColor[colorMode]}
-                      _hover={{
-                        color: contentButtonHoverColor[colorMode],
-                        bg: contentButtonHoverBg[colorMode],
-                        borderColor: contentButtonHoverBorderColor[colorMode],
-                      }}
-                      onClick={handleResumeDownload}
-                    >
-                      Resume
                     </Button>
                   </Box>
                 </Box>
