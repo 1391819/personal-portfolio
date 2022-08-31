@@ -237,6 +237,13 @@ export default function Home() {
                   </Paragraph>
                 </BioSection>
                 <BioSection>
+                  <BioYear>2020</BioYear>
+                  <Paragraph>
+                    Studied at Nagoya University of Foreign Studies in Japan.
+                    Achieved one of my many dreams.
+                  </Paragraph>
+                </BioSection>
+                <BioSection>
                   <BioYear>2022</BioYear>
                   <Paragraph>
                     Bsc in Computer Science with AI at Northumbria University.
