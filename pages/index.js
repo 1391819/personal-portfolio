@@ -261,7 +261,7 @@ export default function Home() {
                 boxShadow={componentsBoxShadow[colorMode]}
                 maxWidth={[null, null, "180px", "200px", null]}
                 borderRadius="full"
-                src="/images/profile2.jpg"
+                src="/images/profile.jpg"
                 alt="Profile Image"
               />
             </Box>
