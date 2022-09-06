@@ -38,7 +38,7 @@ $PROJECT_ROOT
 - [x] Basic structure - landpage, bio, experience, and projects
 - [x] Mobile responsiveness
 - [x] Light and dark mode
-- [ ] Create landscape gif for README document
+- [x] Create landpage gif for README document
 
 ## License
 
