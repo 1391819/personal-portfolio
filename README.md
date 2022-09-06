@@ -44,4 +44,9 @@ $PROJECT_ROOT
 
 MIT
 
+## Attributions
+
+- [Craftzdog](https://github.com/craftzdog/craftzdog-homepage)
+- [Gazi](https://github.com/gazijarin/Gazi)
+
 </div>
