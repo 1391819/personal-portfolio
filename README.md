@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/logo-light-nobg.png" alt="logo" width="64"/>
+  <img src="public/logo-light-nobg.png" alt="logo" width="128"/>
   <h1>Personal Portfolio - V1</h1>
 
 [www.nacu.me](https://nacu.me/)
