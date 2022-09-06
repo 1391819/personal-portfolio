@@ -42,20 +42,6 @@ const Creations = () => {
             >
               SQLite3
             </Badge>
-            <Badge
-              className="stack-badge"
-              fontSize={["xs", null, null, null, null, null]}
-              colorScheme="orange"
-            >
-              Eigenface
-            </Badge>
-            <Badge
-              className="stack-badge"
-              fontSize={["xs", null, null, null, null, null]}
-              colorScheme="orange"
-            >
-              Viola-Jones
-            </Badge>
           </Box>
         </CreationGridItem>
       </Box>
