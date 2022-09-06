@@ -41,6 +41,6 @@ $PROJECT_ROOT
 
 ## License
 
-Apache 2.0
+MIT
 
 </div>
