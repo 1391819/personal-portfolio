@@ -33,7 +33,28 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="red"
             >
-              Raspberry
+              Raspberry PI
+            </Badge>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="orange"
+            >
+              SQLite3
+            </Badge>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="orange"
+            >
+              Eigenface
+            </Badge>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="orange"
+            >
+              Viola-Jones
             </Badge>
           </Box>
         </CreationGridItem>
