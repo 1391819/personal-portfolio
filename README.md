@@ -8,9 +8,8 @@
 
 ## Highlights
 
-  <div align="center">
-    <img src="public/screenshots/landpage.jpg" alt="landpage"/>
-  </div>
+![Landscape gif]("public/screenshots/landpage.gif")
+
 <div align="justify">
 
 ## Stack
@@ -38,7 +37,7 @@ $PROJECT_ROOT
 - [x] Basic structure - landpage, bio, experience, and projects
 - [x] Mobile responsiveness
 - [x] Light and dark mode
-- [ ] Create landscape gif for README document
+- [x] Create landscape gif for README document
 
 ## License
 
