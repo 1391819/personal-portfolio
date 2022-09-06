@@ -8,7 +8,7 @@
 
 ## Highlights
 
-![Landscape gif]("public/screenshots/landpage.gif")
+![Landscape gif](public/screenshots/landpage.gif)
 
 <div align="justify">
 
