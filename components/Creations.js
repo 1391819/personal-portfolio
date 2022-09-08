@@ -3,7 +3,7 @@ import CreationGridItem from "./CreationGridItem.js";
 
 // thumbnails
 import faceRecognitionThumbnail from "../public/images/creations/face-recognition/analysis.jpg";
-import japaneseLanguageRenshuuThumbnail from "../public/images/creations/japanese-language-renshuu/1.png";
+import japaneseLanguageRenshuuThumbnail from "../public/images/creations/japanese-language-renshuu/2.png";
 
 const Creations = () => {
   return (
