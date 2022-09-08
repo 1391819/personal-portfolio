@@ -4,7 +4,7 @@ import CreationGridItem from "./CreationGridItem.js";
 // thumbnails
 import faceRecognitionThumbnail from "../public/images/creations/face-recognition/analysis.jpg";
 import japaneseLanguageRenshuuThumbnail from "../public/images/creations/japanese-language-renshuu/project_showcase.jpg";
-import interactiveLowPolyEnvironment from "../public/images/creations/interactive-low-poly-environment/environment_showcase.jpg"
+import interactiveLowPolyEnvironment from "../public/images/creations/interactive-low-poly-environment/environment_showcase.jpg";
 import generalProjectThumbnail from "../public/images/creations/generalProjectThumbnail.jpg";
 
 const Creations = () => {
@@ -115,19 +115,26 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="blue"
             >
-              Threejs
+              JavaScript
             </Badge>
             <Badge
               className="stack-badge"
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="purple"
             >
-              GLSL
+              Threejs
             </Badge>
             <Badge
               className="stack-badge"
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="red"
+            >
+              GLSL
+            </Badge>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="orange"
             >
               glTF
             </Badge>
