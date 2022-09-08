@@ -6,13 +6,6 @@
 
 </div>
 
-## Highlights
-
-  <div align="center">
-    <img src="public/screenshots/landpage.gif" alt="landpage gif"/>
-  </div>
-<div align="justify">
-
 ## Stack
 
 - [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
@@ -39,6 +32,13 @@ $PROJECT_ROOT
 - [x] Mobile responsiveness
 - [x] Light and dark mode
 - [x] Create landpage gif for README document
+
+## Highlights
+
+  <div align="center">
+    <img src="public/screenshots/landpage.gif" alt="landpage gif"/>
+  </div>
+<div align="justify">
 
 ## License
 
