@@ -115,7 +115,7 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="blue"
             >
-              Three.js
+              Threejs
             </Badge>
             <Badge
               className="stack-badge"
