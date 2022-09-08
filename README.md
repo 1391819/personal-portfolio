@@ -46,7 +46,7 @@ MIT
 
 ## Attributions
 
-- [Craftzdog](https://github.com/craftzdog/craftzdog-homepage)
-- [Gazi](https://github.com/gazijarin/Gazi)
+- [Craftzdog's GitHub](https://github.com/craftzdog/craftzdog-homepage)
+- [Gazi's GitHub](https://github.com/gazijarin/Gazi)
 
 </div>
