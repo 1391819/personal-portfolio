@@ -5,7 +5,6 @@ import CreationGridItem from "./CreationGridItem.js";
 import faceRecognitionThumbnail from "../public/images/creations/face-recognition/analysis.jpg";
 import japaneseLanguageRenshuuThumbnail from "../public/images/creations/japanese-language-renshuu/4.4.jpg";
 import generalProjectThumbnail from "../public/images/creations/generalProjectThumbnail.jpg";
-import generalProjectThumbnailPNG from "../public/images/creations/generalProjectThumbnail.png";
 
 const Creations = () => {
   return (
@@ -69,44 +68,6 @@ const Creations = () => {
         <CreationGridItem
           title="Tic Tac Toe"
           thumbnail={generalProjectThumbnail}
-          link="https://github.com/1391819/tic-tac-toe"
-        >
-          <Box pb={1}>
-            <Badge
-              className="stack-badge"
-              fontSize={["xs", null, null, null, null, null]}
-              colorScheme="blue"
-            >
-              C++
-            </Badge>
-            <Badge
-              className="stack-badge"
-              fontSize={["xs", null, null, null, null, null]}
-              colorScheme="purple"
-            >
-              Linux
-            </Badge>
-            <Badge
-              className="stack-badge"
-              fontSize={["xs", null, null, null, null, null]}
-              colorScheme="red"
-            >
-              Minimax
-            </Badge>
-            <Badge
-              className="stack-badge"
-              fontSize={["xs", null, null, null, null, null]}
-              colorScheme="orange"
-            >
-              TCP Sockets
-            </Badge>
-          </Box>
-        </CreationGridItem>
-      </Box>
-      <Box>
-        <CreationGridItem
-          title="Tic Tac Toe"
-          thumbnail={generalProjectThumbnailPNG}
           link="https://github.com/1391819/tic-tac-toe"
         >
           <Box pb={1}>
