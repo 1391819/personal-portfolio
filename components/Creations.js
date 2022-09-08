@@ -105,7 +105,7 @@ const Creations = () => {
       </Box>
       <Box>
         <CreationGridItem
-          title="Interactive Low Poly Environment"
+          title="Low Poly Environment"
           thumbnail={interactiveLowPolyEnvironment}
           link="https://github.com/1391819/interactive-low-poly-environment"
         >
