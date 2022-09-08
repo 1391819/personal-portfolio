@@ -9,7 +9,7 @@
 ## Highlights
 
   <div align="center">
-    <img src="public/screenshots/landpage.gif" alt="landpage image"/>
+    <img src="public/screenshots/landpage.gif" alt="landpage gif"/>
   </div>
 <div align="justify">
 
