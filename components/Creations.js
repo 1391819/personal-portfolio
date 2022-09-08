@@ -3,7 +3,7 @@ import CreationGridItem from "./CreationGridItem.js";
 
 // thumbnails
 import faceRecognitionThumbnail from "../public/images/creations/face-recognition/analysis.jpg";
-import japaneseLanguageRenshuuThumbnail from "../public/images/creations/japanese-language-renshuu/4.4.jpg";
+import japaneseLanguageRenshuuThumbnail from "../public/images/creations/japanese-language-renshuu/project_showcase.jpg";
 import interactiveLowPolyEnvironment from "../public/images/creations/interactive-low-poly-environment/environment_showcase.jpg"
 import generalProjectThumbnail from "../public/images/creations/generalProjectThumbnail.jpg";
 
