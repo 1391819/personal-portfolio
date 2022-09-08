@@ -4,6 +4,7 @@ import CreationGridItem from "./CreationGridItem.js";
 // thumbnails
 import faceRecognitionThumbnail from "../public/images/creations/face-recognition/analysis.jpg";
 import japaneseLanguageRenshuuThumbnail from "../public/images/creations/japanese-language-renshuu/4.4.jpg";
+import interactiveLowPolyEnvironment from "../public/images/creations/interactive-low-poly-environment/environment_showcase.jpg"
 import generalProjectThumbnail from "../public/images/creations/generalProjectThumbnail.jpg";
 
 const Creations = () => {
@@ -98,6 +99,37 @@ const Creations = () => {
               colorScheme="orange"
             >
               TCP Sockets
+            </Badge>
+          </Box>
+        </CreationGridItem>
+      </Box>
+      <Box>
+        <CreationGridItem
+          title="Interactive Low Poly Environment"
+          thumbnail={interactiveLowPolyEnvironment}
+          link="https://github.com/1391819/interactive-low-poly-environment"
+        >
+          <Box pb={1}>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="blue"
+            >
+              Three.js
+            </Badge>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="purple"
+            >
+              GLSL
+            </Badge>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="red"
+            >
+              glTF
             </Badge>
           </Box>
         </CreationGridItem>
