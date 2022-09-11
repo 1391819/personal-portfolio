@@ -144,7 +144,7 @@ const Creations = () => {
       </Box>
       <Box>
         <CreationGridItem
-          title="Seek"
+          title="Seek: A Multi Agent Environment"
           thumbnail={maSeekThumbnail}
           link="https://github.com/1391819/MA-seek"
         >
@@ -169,13 +169,6 @@ const Creations = () => {
               colorScheme="red"
             >
               Tensorflow
-            </Badge>
-            <Badge
-              className="stack-badge"
-              fontSize={["xs", null, null, null, null, null]}
-              colorScheme="orange"
-            >
-              DRQN
             </Badge>
           </Box>
         </CreationGridItem>
