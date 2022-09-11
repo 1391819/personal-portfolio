@@ -98,7 +98,7 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="orange"
             >
-              TCP Sockets
+              TCP/IP
             </Badge>
           </Box>
         </CreationGridItem>
