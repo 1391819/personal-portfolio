@@ -161,7 +161,7 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="purple"
             >
-              Deep RL
+              ML
             </Badge>
             <Badge
               className="stack-badge"
