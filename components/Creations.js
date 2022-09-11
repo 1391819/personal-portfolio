@@ -2,10 +2,10 @@ import { SimpleGrid, Box, Badge } from "@chakra-ui/react";
 import CreationGridItem from "./CreationGridItem.js";
 
 // thumbnails
-import faceRecognitionThumbnail from "../public/images/creations/face-recognition/analysis.jpg";
-import japaneseLanguageRenshuuThumbnail from "../public/images/creations/japanese-language-renshuu/project_showcase.jpg";
-import interactiveLowPolyEnvironmentThumbnail from "../public/images/creations/interactive-low-poly-environment/environment_showcase.jpg";
-import maSeekThumbnail from "../public/images/creations/MA-seek/observation_space_showcase_test.png"
+import faceRecognitionThumbnail from "../public/images/creations/face-recognition/face_recognition_showcase.jpg";
+import japaneseLanguageRenshuuThumbnail from "../public/images/creations/japanese-language-renshuu/japanese_language_renshuu_showcase.jpg";
+import interactiveLowPolyEnvironmentThumbnail from "../public/images/creations/interactive-low-poly-environment/interactive_low_poly_environment_showcase.jpg";
+import maSeekThumbnail from "../public/images/creations/MA-seek/ma_seek_showcase.jpg"
 import generalProjectThumbnail from "../public/images/creations/generalProjectThumbnail.jpg";
 
 const Creations = () => {
