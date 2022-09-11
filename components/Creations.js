@@ -170,6 +170,13 @@ const Creations = () => {
             >
               Tensorflow
             </Badge>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="orange"
+            >
+              DRQN
+            </Badge>
           </Box>
         </CreationGridItem>
       </Box>
