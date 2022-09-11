@@ -144,7 +144,7 @@ const Creations = () => {
       </Box>
       <Box>
         <CreationGridItem
-          title="Seek: A Multi Agent Environment"
+          title="MA Seek"
           thumbnail={maSeekThumbnail}
           link="https://github.com/1391819/MA-seek"
         >
