@@ -5,7 +5,7 @@ import CreationGridItem from "./CreationGridItem.js";
 import faceRecognitionThumbnail from "../public/images/creations/face-recognition/analysis.jpg";
 import japaneseLanguageRenshuuThumbnail from "../public/images/creations/japanese-language-renshuu/project_showcase.jpg";
 import interactiveLowPolyEnvironmentThumbnail from "../public/images/creations/interactive-low-poly-environment/environment_showcase.jpg";
-import maSeekThumbnail from "../public/images/creations/MA-seek/observation_space_showcase.png"
+import maSeekThumbnail from "../public/images/creations/MA-seek/observation_space_showcase_test.png"
 import generalProjectThumbnail from "../public/images/creations/generalProjectThumbnail.jpg";
 
 const Creations = () => {
