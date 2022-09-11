@@ -4,7 +4,8 @@ import CreationGridItem from "./CreationGridItem.js";
 // thumbnails
 import faceRecognitionThumbnail from "../public/images/creations/face-recognition/analysis.jpg";
 import japaneseLanguageRenshuuThumbnail from "../public/images/creations/japanese-language-renshuu/project_showcase.jpg";
-import interactiveLowPolyEnvironment from "../public/images/creations/interactive-low-poly-environment/environment_showcase.jpg";
+import interactiveLowPolyEnvironmentThumbnail from "../public/images/creations/interactive-low-poly-environment/environment_showcase.jpg";
+import maSeekThumbnail from "../public/images/creations/MA-seek/observation_space_showcase.png"
 import generalProjectThumbnail from "../public/images/creations/generalProjectThumbnail.jpg";
 
 const Creations = () => {
@@ -106,7 +107,7 @@ const Creations = () => {
       <Box>
         <CreationGridItem
           title="Low Poly Environment"
-          thumbnail={interactiveLowPolyEnvironment}
+          thumbnail={interactiveLowPolyEnvironmentThumbnail}
           link="https://github.com/1391819/interactive-low-poly-environment"
         >
           <Box pb={1}>
@@ -137,6 +138,44 @@ const Creations = () => {
               colorScheme="orange"
             >
               glTF
+            </Badge>
+          </Box>
+        </CreationGridItem>
+      </Box>
+      <Box>
+        <CreationGridItem
+          title="Seek"
+          thumbnail={generalProjectThumbnail}
+          link="https://github.com/1391819/MA-seek"
+        >
+          <Box pb={1}>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="blue"
+            >
+              Python
+            </Badge>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="purple"
+            >
+              Reinforcement Learning
+            </Badge>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="red"
+            >
+              Tensorflow
+            </Badge>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="orange"
+            >
+              DRQN
             </Badge>
           </Box>
         </CreationGridItem>
