@@ -145,7 +145,7 @@ const Creations = () => {
       <Box>
         <CreationGridItem
           title="Seek"
-          thumbnail={generalProjectThumbnail}
+          thumbnail={maSeekThumbnail}
           link="https://github.com/1391819/MA-seek"
         >
           <Box pb={1}>
@@ -161,7 +161,7 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="purple"
             >
-              Reinforcement Learning
+              Deep RL
             </Badge>
             <Badge
               className="stack-badge"
