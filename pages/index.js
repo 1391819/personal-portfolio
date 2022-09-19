@@ -412,8 +412,8 @@ export default function Home() {
                       color={listIconsColor[colorMode]}
                     />
                     <Paragraph>
-                      Developed, tested and debugged reliable and maintainable
-                      software using C++ and OpenGL
+                      Developed, tested and debugged maintainable software using
+                      C++ and OpenGL
                     </Paragraph>
                   </ListItem>
                   <ListItem display="flex" alignItems="center">
@@ -422,8 +422,8 @@ export default function Home() {
                       color={listIconsColor[colorMode]}
                     />
                     <Paragraph>
-                      Resolved multi-lingual customers’ enquiries and provided
-                      remote technical assistance
+                      Resolved customers’ enquiries and provided remote
+                      technical assistance
                     </Paragraph>
                   </ListItem>
                   <ListItem display="flex" alignItems="center">
@@ -433,8 +433,8 @@ export default function Home() {
                     />
                     <Paragraph>
                       <b>
-                        Resulted in 100% satisfaction by international DDX
-                        customers
+                        Resulted in 100% satisfaction by both domestic and
+                        international customers
                       </b>
                     </Paragraph>
                   </ListItem>
