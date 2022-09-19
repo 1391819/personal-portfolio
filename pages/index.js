@@ -1,7 +1,7 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
-import { useRouter } from "next/router";
-import { motion } from "framer-motion";
+import {useRouter} from "next/router";
+import {motion} from "framer-motion";
 import {
   useColorMode,
   Heading,
@@ -17,19 +17,19 @@ import {
   List,
   ListIcon,
   ListItem,
-  Button,
+  Button
 } from "@chakra-ui/react";
 
 // components
 import Container from "../components/Container";
-import { BioSection, BioYear } from "../components/Bio.js";
+import {BioSection, BioYear} from "../components/Bio.js";
 import Paragraph from "../components/Paragraph";
 import VoxelRaccoonLoader from "../components/voxel-raccoon-loader.js";
 import Creations from "../components/Creations.js";
 import SocialMedia from "../components/SocialMedia.js";
 import Section from "../components/Section.js";
 
-import { ChevronRightIcon, DownloadIcon, ChatIcon } from "@chakra-ui/icons";
+import {ChevronRightIcon, DownloadIcon, ChatIcon} from "@chakra-ui/icons";
 
 import Typed from "react-typed";
 
@@ -38,72 +38,72 @@ const LazyVoxelRaccoon = dynamic(
   () => import("../components/voxel-raccoon.js"),
   {
     ssr: false,
-    loading: () => <VoxelRaccoonLoader />,
+    loading: () => <VoxelRaccoonLoader />
   }
 );
 
 export default function Home() {
   const router = useRouter();
-  const { colorMode } = useColorMode();
+  const {colorMode} = useColorMode();
 
   const headingColor = {
     light: "teal.500",
-    dark: "teal.300",
+    dark: "teal.300"
   };
 
   const listIconsColor = {
     light: "red.400",
-    dark: "teal.300",
+    dark: "teal.300"
   };
 
   const highlightColor = {
     light: "#171717",
-    dark: "#e5e5e5",
+    dark: "#e5e5e5"
   };
 
   const componentsBoxShadow = {
     light: "0 5px 5px rgba(0, 0, 0, 0.1)",
-    dark: "0 5px 5px rgba(0, 0, 0, 0.1)",
+    dark: "0 5px 5px rgba(0, 0, 0, 0.1)"
   };
 
   const tabButtonColor = {
     light: "#171717",
-    dark: "#e5e5e5",
+    dark: "#e5e5e5"
   };
 
   const tabButtonBgColor = {
     light: "",
-    dark: "",
+    dark: ""
   };
 
   const contentButtonColor = {
     light: "#e5e5e5",
-    dark: "#e5e5e5",
+    dark: "#e5e5e5"
   };
 
   const contentButtonBgColor = {
     light: "teal.500",
-    dark: "",
+    dark: ""
   };
 
   const contentButtonHoverBg = {
     light: "teal.500",
-    dark: "teal.300",
+    dark: "teal.300"
   };
 
   const contentButtonHoverColor = {
     light: "#e5e5e5",
-    dark: "#e5e5e5",
+    dark: "#e5e5e5"
   };
 
   const contentButtonBorderColor = {
     light: "teal.500",
-    dark: "teal.300",
+    dark: "teal.300"
   };
 
   const contentButtonHoverBorderColor = {
     light: "",
-    dark: "",
+    dark: ""
   };
 
   return (
@@ -140,7 +140,7 @@ export default function Home() {
             >
               <Typed
                 strings={[
-                  "hi, <mark class='highlight-word-banner'>roberto</mark> here.",
+                  "hi, <mark class='highlight-word-banner'>roberto</mark> here."
                 ]}
                 startDelay={1500}
                 typeSpeed={45}
@@ -154,17 +154,17 @@ export default function Home() {
                   query={[
                     "full-stack development",
                     "AI/ML",
-                    "human-computer interactions",
+                    "human-computer interactions"
                   ]}
                   styles={{
                     fontWeight: "600",
-                    color: highlightColor[colorMode],
+                    color: highlightColor[colorMode]
                   }}
                 >
-                  I&apos;m a multilingual computer science with artificial
-                  intelligence graduate based in Newcastle upon Tyne. I have a
-                  great interest in full-stack development, AI/ML,
-                  human-computer interactions, and everything in between.
+                  I&apos;m a multilingual Computer Science Graduate based in
+                  Newcastle upon Tyne. I have a great interest in Reinforcement
+                  Learning, Computer Vision, Human-Computer Interaction,
+                  Full-Stack Development, and everything in between.
                 </Highlight>
               </Paragraph>
             </Box>
@@ -176,7 +176,7 @@ export default function Home() {
                 flexWrap="wrap"
               >
                 <Box display="flex">
-                  <Box as={motion.div} whileHover={{ scale: 1.05 }} mt={8}>
+                  <Box as={motion.div} whileHover={{scale: 1.05}} mt={8}>
                     <Button
                       aria-label="Contact me"
                       fontSize={["md", null, "lg", null, null, null]}
@@ -192,7 +192,7 @@ export default function Home() {
                       _hover={{
                         color: contentButtonHoverColor[colorMode],
                         bg: contentButtonHoverBg[colorMode],
-                        borderColor: contentButtonHoverBorderColor[colorMode],
+                        borderColor: contentButtonHoverBorderColor[colorMode]
                       }}
                       onClick={() =>
                         router.push("mailto:roberto.nacu@gmail.com")
@@ -228,7 +228,7 @@ export default function Home() {
                 </BioSection>
                 <BioSection>
                   <BioYear>2016</BioYear>
-                  <Paragraph>Diploma in Computer Science.</Paragraph>
+                  <Paragraph>Diploma di Stato in Computer Science.</Paragraph>
                 </BioSection>
                 <BioSection>
                   <BioYear>2017</BioYear>
@@ -247,7 +247,7 @@ export default function Home() {
                   <BioYear>2022</BioYear>
                   <Paragraph>
                     Bsc in Computer Science with AI at Northumbria University.
-                    Achieved a first class degree.
+                    Achieved a First Class Honours.
                   </Paragraph>
                 </BioSection>
               </Box>
@@ -326,7 +326,7 @@ export default function Home() {
                       as={ChevronRightIcon}
                       color={listIconsColor[colorMode]}
                     />
-                    <Paragraph>Keras</Paragraph>
+                    <Paragraph>OpenCV</Paragraph>
                   </ListItem>
                   <ListItem display="flex" alignItems="center">
                     <ListIcon
@@ -373,12 +373,12 @@ export default function Home() {
                 color={tabButtonColor[colorMode]}
                 bg={tabButtonBgColor[colorMode]}
                 _selected={{
-                  borderColor: contentButtonBorderColor[colorMode],
+                  borderColor: contentButtonBorderColor[colorMode]
                 }}
                 border={"2px solid"}
                 borderColor={"rgba(0, 0, 0, 0)"}
                 borderWidth={"0 0 2px 0"}
-                whileHover={{ scale: 1.1 }}
+                whileHover={{scale: 1.1}}
               >
                 DDX
               </Tab>
@@ -392,7 +392,7 @@ export default function Home() {
                   <Highlight
                     query="DDX"
                     styles={{
-                      color: headingColor[colorMode],
+                      color: headingColor[colorMode]
                     }}
                   >
                     Software Developer Intern @ DDX
@@ -406,8 +406,8 @@ export default function Home() {
                       color={listIconsColor[colorMode]}
                     />
                     <Paragraph>
-                      Learnt the company’s own C derived programming language
-                      within 2 weeks.
+                      Implemented client-tailored CNC programs by optimising the
+                      virtual machining process
                     </Paragraph>
                   </ListItem>
                   <ListItem display="flex" alignItems="center">
@@ -416,9 +416,8 @@ export default function Home() {
                       color={listIconsColor[colorMode]}
                     />
                     <Paragraph>
-                      Developed and debugged CNC programs while considering
-                      customers’ needs and efficiently meeting their
-                      requirements.
+                      Developed, tested and debugged reliable and maintainable
+                      software using C++ and OpenGL
                     </Paragraph>
                   </ListItem>
                   <ListItem display="flex" alignItems="center">
@@ -427,8 +426,20 @@ export default function Home() {
                       color={listIconsColor[colorMode]}
                     />
                     <Paragraph>
-                      Resolved customers’ enquiries orally and in writing, and
-                      provided remote technical assistance.
+                      Resolved multi-lingual customers’ enquiries and provided
+                      remote technical assistance
+                    </Paragraph>
+                  </ListItem>
+                  <ListItem display="flex" alignItems="center">
+                    <ListIcon
+                      as={ChevronRightIcon}
+                      color={listIconsColor[colorMode]}
+                    />
+                    <Paragraph>
+                      <b>
+                        Resulted in 100% satisfaction by international DDX
+                        customers
+                      </b>
                     </Paragraph>
                   </ListItem>
                 </List>
