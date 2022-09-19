@@ -157,10 +157,10 @@ export default function Home() {
                     color: highlightColor[colorMode]
                   }}
                 >
-                  I&apos;m a multilingual Computer Science Graduate based in
+                  I&apos;m a multilingual Computer Science graduate based in
                   Newcastle upon Tyne. I have a great interest in Reinforcement
-                  Learning, Computer Vision, Human-Computer Interaction,
-                  Full-Stack Development, and everything in between.
+                  Learning, Computer Vision, Human-Computer Interaction, Full
+                  Stack Development, and everything in between.
                 </Highlight>
               </Paragraph>
             </Box>
