@@ -158,9 +158,9 @@ export default function Home() {
                   }}
                 >
                   I&apos;m a multilingual Computer Science graduate based in
-                  Newcastle upon Tyne. I have a great interest in Reinforcement
-                  Learning, Computer Vision, Human-Computer Interaction, Full
-                  Stack Development, and everything in between.
+                  Newcastle upon Tyne. I have a great interest in reinforcement
+                  learning, computer vision, human-computer interaction, full
+                  stack development, and everything in between.
                 </Highlight>
               </Paragraph>
             </Box>
