@@ -151,11 +151,7 @@ export default function Home() {
             <Box zIndex={1}>
               <Paragraph>
                 <Highlight
-                  query={[
-                    "full-stack development",
-                    "AI/ML",
-                    "human-computer interactions"
-                  ]}
+                  query={["aaaa"]}
                   styles={{
                     fontWeight: "600",
                     color: highlightColor[colorMode]
