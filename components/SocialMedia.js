@@ -1,6 +1,6 @@
 import {useColorMode, Stack, Link, Button, Icon} from "@chakra-ui/react";
-import {IoLogoInstagram, IoLogoGithub, IoLogoLinkedin} from "react-icons/io5";
-import {FaGithub, FaKaggle, FaLinkedin} from "react-icons/fa";
+import {IoLogoGithub, IoLogoLinkedin} from "react-icons/io5";
+import {FaKaggle} from "react-icons/fa";
 
 const SocialMedia = () => {
   const {colorMode} = useColorMode();
@@ -25,7 +25,7 @@ const SocialMedia = () => {
       <Link href="https://github.com/1391819" target="_blank">
         <Button
           aria-label="Open Github"
-          leftIcon={<Icon mr={-2} as={FaGithub} />}
+          leftIcon={<Icon mr={-2} as={IoLogoGithub} />}
           borderRadius={"5px"}
           p={0}
           color={socialIconColor[colorMode]}
@@ -39,8 +39,8 @@ const SocialMedia = () => {
       </Link>
       <Link href="https://www.kaggle.com/robertonacu" target="_blank">
         <Button
-          aria-label="Open Instagram"
-          leftIcon={<Icon mr={-2} as={FaKaggle} />}
+          aria-label="Open Kaggle"
+          leftIcon={<Icon mr={-2} mb={0.5} as={FaKaggle} />}
           borderRadius={"5px"}
           p={0}
           ml={2}
@@ -56,7 +56,7 @@ const SocialMedia = () => {
       <Link href="https://www.linkedin.com/in/robertonacu/" target="_blank">
         <Button
           aria-label="Open Instagram"
-          leftIcon={<Icon mr={-2} as={FaLinkedin} />}
+          leftIcon={<Icon mr={-2} as={IoLogoLinkedin} />}
           borderRadius={"5px"}
           p={0}
           ml={2}
