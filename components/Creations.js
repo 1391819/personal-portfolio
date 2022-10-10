@@ -7,6 +7,7 @@ import japaneseLanguageRenshuuThumbnail from "../public/images/creations/japanes
 import interactiveLowPolyEnvironmentThumbnail from "../public/images/creations/interactive-low-poly-environment/interactive_low_poly_environment_showcase.png";
 import maSeekThumbnail from "../public/images/creations/MA-seek/ma_seek_showcase.png";
 import uniSocialMediaThumbnail from "../public/images/creations/social-media-app/uni_social_media_showcase.png";
+import financialResearcherThumbnail from "../public/images/creations/financial-researcher/financial_dashboard_showcase.png";
 import generalProjectThumbnail from "../public/images/creations/generalProjectThumbnail.png";
 
 const Creations = () => {
@@ -15,7 +16,7 @@ const Creations = () => {
       <Box>
         <CreationGridItem
           title="Financial Researcher"
-          thumbnail={generalProjectThumbnail}
+          thumbnail={financialResearcherThumbnail}
           link="https://huggingface.co/spaces/r1391819/financial-researcher"
         >
           <Box pb={1}>
@@ -24,26 +25,19 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="blue"
             >
-              Python
+              Hugging Face
             </Badge>
             <Badge
               className="stack-badge"
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="purple"
             >
-              Hugging Face
-            </Badge>
-            <Badge
-              className="stack-badge"
-              fontSize={["xs", null, null, null, null, null]}
-              colorScheme="red"
-            >
               Streamlit
             </Badge>
             <Badge
               className="stack-badge"
               fontSize={["xs", null, null, null, null, null]}
-              colorScheme="orange"
+              colorScheme="red"
             >
               Prophet
             </Badge>
