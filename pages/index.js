@@ -315,13 +315,6 @@ export default function Home() {
                       as={ChevronRightIcon}
                       color={listIconsColor[colorMode]}
                     />
-                    <Paragraph>MATLAB</Paragraph>
-                  </ListItem>
-                  <ListItem display="flex" alignItems="center">
-                    <ListIcon
-                      as={ChevronRightIcon}
-                      color={listIconsColor[colorMode]}
-                    />
                     <Paragraph>OpenCV</Paragraph>
                   </ListItem>
                   <ListItem display="flex" alignItems="center">
