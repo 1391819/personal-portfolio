@@ -166,7 +166,7 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="blue"
             >
-              Python
+              CLI
             </Badge>
           </Box>
         </CreationGridItem>
