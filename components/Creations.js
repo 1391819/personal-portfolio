@@ -56,26 +56,19 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="blue"
             >
-              Python
+              Opencv
             </Badge>
             <Badge
               className="stack-badge"
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="purple"
             >
-              Opencv
+              Raspberry Pi
             </Badge>
             <Badge
               className="stack-badge"
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="red"
-            >
-              Raspberry PI
-            </Badge>
-            <Badge
-              className="stack-badge"
-              fontSize={["xs", null, null, null, null, null]}
-              colorScheme="orange"
             >
               SQLite3
             </Badge>
@@ -94,26 +87,19 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="blue"
             >
-              JavaScript
+              Threejs
             </Badge>
             <Badge
               className="stack-badge"
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="purple"
             >
-              Threejs
-            </Badge>
-            <Badge
-              className="stack-badge"
-              fontSize={["xs", null, null, null, null, null]}
-              colorScheme="red"
-            >
               GLSL
             </Badge>
             <Badge
               className="stack-badge"
               fontSize={["xs", null, null, null, null, null]}
-              colorScheme="orange"
+              colorScheme="red"
             >
               glTF
             </Badge>
@@ -132,26 +118,12 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="blue"
             >
-              Python
+              Reinforcement Learning
             </Badge>
             <Badge
               className="stack-badge"
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="purple"
-            >
-              ML
-            </Badge>
-            <Badge
-              className="stack-badge"
-              fontSize={["xs", null, null, null, null, null]}
-              colorScheme="red"
-            >
-              Tensorflow
-            </Badge>
-            <Badge
-              className="stack-badge"
-              fontSize={["xs", null, null, null, null, null]}
-              colorScheme="orange"
             >
               DRQN
             </Badge>
