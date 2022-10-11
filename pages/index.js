@@ -285,13 +285,6 @@ export default function Home() {
                       as={ChevronRightIcon}
                       color={listIconsColor[colorMode]}
                     />
-                    <Paragraph>Java</Paragraph>
-                  </ListItem>
-                  <ListItem display="flex" alignItems="center">
-                    <ListIcon
-                      as={ChevronRightIcon}
-                      color={listIconsColor[colorMode]}
-                    />
                     <Paragraph>HTML & CSS</Paragraph>
                   </ListItem>
                   <ListItem display="flex" alignItems="center">
