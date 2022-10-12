@@ -124,7 +124,7 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="purple"
             >
-              Reinforcement Learning
+              RL
             </Badge>
             <Badge
               className="stack-badge"
