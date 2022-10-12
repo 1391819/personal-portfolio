@@ -165,12 +165,19 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="blue"
             >
-              TCP/IP
+              C++
             </Badge>
             <Badge
               className="stack-badge"
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="purple"
+            >
+              TCP/IP
+            </Badge>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="red"
             >
               Minimax
             </Badge>
