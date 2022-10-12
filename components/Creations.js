@@ -117,12 +117,19 @@ const Creations = () => {
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="blue"
             >
-              Reinforcement Learning
+              Python
             </Badge>
             <Badge
               className="stack-badge"
               fontSize={["xs", null, null, null, null, null]}
               colorScheme="purple"
+            >
+              Reinforcement Learning
+            </Badge>
+            <Badge
+              className="stack-badge"
+              fontSize={["xs", null, null, null, null, null]}
+              colorScheme="red"
             >
               DRQN
             </Badge>
