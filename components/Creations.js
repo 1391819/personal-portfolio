@@ -15,7 +15,7 @@ const Creations = () => {
 				<CreationGridItem
 					title="Financial Researcher"
 					thumbnail={financialResearcherThumbnail}
-					link="https://huggingface.co/spaces/r1391819/financial-researcher"
+					link="https://github.com/1391819/financial-researcher"
 				>
 					<Box pb={1}>
 						<Badge
