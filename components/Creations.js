@@ -22,21 +22,21 @@ const Creations = () => {
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="blue"
+							colorScheme="white"
 						>
 							Hugging Face
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="purple"
+							colorScheme="white"
 						>
 							Streamlit
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="red"
+							colorScheme="white"
 						>
 							Prophet
 						</Badge>
