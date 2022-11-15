@@ -22,21 +22,21 @@ const Creations = () => {
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							Hugging Face
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							Streamlit
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							Prophet
 						</Badge>
@@ -53,21 +53,21 @@ const Creations = () => {
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							Opencv
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							Raspberry Pi
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							SQLite3
 						</Badge>
@@ -84,28 +84,28 @@ const Creations = () => {
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							ReactJS
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							Flask
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							Docker
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							Sklearn
 						</Badge>
@@ -122,21 +122,21 @@ const Creations = () => {
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							Python
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							Reinforcement Learning
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							DRQN
 						</Badge>
@@ -153,21 +153,21 @@ const Creations = () => {
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							Threejs
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							GLSL
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							glTF
 						</Badge>
@@ -184,21 +184,21 @@ const Creations = () => {
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							C++
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							TCP/IP
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="white"
+							colorScheme="teal"
 						>
 							Minimax
 						</Badge>
