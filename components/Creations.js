@@ -85,7 +85,7 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							ReactJS
+							React
 						</Badge>
 						<Badge
 							className="stack-badge"
