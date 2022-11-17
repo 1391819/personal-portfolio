@@ -351,6 +351,16 @@ export default function Home() {
 										/>
 										<Paragraph>JavaScript</Paragraph>
 									</ListItem>
+									<ListItem
+										display="flex"
+										alignItems="center"
+									>
+										<ListIcon
+											as={ChevronRightIcon}
+											color={listIconsColor[colorMode]}
+										/>
+										<Paragraph>React</Paragraph>
+									</ListItem>
 								</List>
 								<List spacing={1} pt={4} pb={8}>
 									<ListItem
@@ -371,7 +381,7 @@ export default function Home() {
 											as={ChevronRightIcon}
 											color={listIconsColor[colorMode]}
 										/>
-										<Paragraph>OpenCV</Paragraph>
+										<Paragraph>Sklearn</Paragraph>
 									</ListItem>
 									<ListItem
 										display="flex"
@@ -382,6 +392,16 @@ export default function Home() {
 											color={listIconsColor[colorMode]}
 										/>
 										<Paragraph>SQL</Paragraph>
+									</ListItem>
+									<ListItem
+										display="flex"
+										alignItems="center"
+									>
+										<ListIcon
+											as={ChevronRightIcon}
+											color={listIconsColor[colorMode]}
+										/>
+										<Paragraph>OpenCV</Paragraph>
 									</ListItem>
 								</List>
 							</Box>
