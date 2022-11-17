@@ -506,8 +506,8 @@ export default function Home() {
 										/>
 										<Paragraph>
 											Developed, tested and debugged
-											maintainable software using{' '}
-											<b>C++</b> and <b>OpenGL</b>
+											maintainable software using C++ and
+											OpenGL
 										</Paragraph>
 									</ListItem>
 									<ListItem
