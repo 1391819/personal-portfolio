@@ -478,9 +478,6 @@ export default function Home() {
 										Software Developer Intern @ DDX
 									</Highlight>
 								</Heading>
-								<Paragraph>
-									CAD-CAM software for CNC machines
-								</Paragraph>
 								<Paragraph as="em">
 									Sep 2017 - Nov 2017
 								</Paragraph>
