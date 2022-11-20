@@ -14,7 +14,6 @@ import {
 	TabPanels,
 	Tab,
 	TabPanel,
-	Link,
 	List,
 	ListIcon,
 	ListItem,
@@ -30,7 +29,7 @@ import Creations from '../components/Creations.js';
 import SocialMedia from '../components/SocialMedia.js';
 import Section from '../components/Section.js';
 
-import { ChevronRightIcon, ChatIcon } from '@chakra-ui/icons';
+import { ChevronRightIcon, DownloadIcon, ChatIcon } from '@chakra-ui/icons';
 
 import Typed from 'react-typed';
 
@@ -476,13 +475,7 @@ export default function Home() {
 											color: headingColor[colorMode],
 										}}
 									>
-										Software Developer Intern @{' '}
-										<Link
-											href="https://www.ddxgroup.com/"
-											target="_blank"
-										>
-											DDX
-										</Link>
+										Software Developer Intern @ DDX
 									</Highlight>
 								</Heading>
 								<Paragraph as="em">
