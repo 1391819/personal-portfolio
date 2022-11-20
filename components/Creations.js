@@ -123,14 +123,14 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							Python
+							Tensorflow
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							Reinforcement Learning
+							RL
 						</Badge>
 						<Badge
 							className="stack-badge"
