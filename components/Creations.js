@@ -117,6 +117,13 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
+							Python
+						</Badge>
+						<Badge
+							className="stack-badge"
+							fontSize={['xs', null, null, null, null, null]}
+							colorScheme="teal"
+						>
 							Tensorflow
 						</Badge>
 						<Badge
