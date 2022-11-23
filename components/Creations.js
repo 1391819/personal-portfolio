@@ -6,6 +6,7 @@ import financialResearcherThumbnail from '../public/images/creations/financial-r
 import faceRecognitionThumbnail from '../public/images/creations/face-recognition/face_recognition_showcase.png';
 import kdramaDashThumbnail from '../public/images/creations/kdrama-dash/kdrama-showcase.png';
 import maSeekThumbnail from '../public/images/creations/MA-seek/ma_seek_showcase.png';
+import interactiveLowPolyEnvironmentThumbnail from '../public/images/creations/interactive-low-poly-environment/interactive_low_poly_environment_showcase.png';
 import generalProjectThumbnail from '../public/images/creations/generalProjectThumbnail.png';
 
 const Creations = () => {
@@ -168,9 +169,9 @@ const Creations = () => {
 			</Box>
 			<Box>
 				<CreationGridItem
-					title="Tic Tac Toe"
-					thumbnail={generalProjectThumbnail}
-					link="https://github.com/1391819/tic-tac-toe"
+					title="Low Poly Environment"
+					thumbnail={interactiveLowPolyEnvironmentThumbnail}
+					link="https://github.com/1391819/interactive-low-poly-environment"
 				>
 					<Box pb={1}>
 						<Badge
@@ -178,21 +179,21 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							C++
+							JavaScript
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							TCP/IP
+							ThreeJS
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							Minimax
+							GLSL/glTF
 						</Badge>
 					</Box>
 				</CreationGridItem>
