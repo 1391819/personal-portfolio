@@ -14,68 +14,6 @@ const Creations = () => {
 		<SimpleGrid columns={[1, null, 2, null, null]} gap={6} pt={4}>
 			<Box>
 				<CreationGridItem
-					title="Financial Researcher"
-					thumbnail={financialResearcherThumbnail}
-					link="https://github.com/1391819/financial-researcher"
-				>
-					<Box pb={1}>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							Hugging Face
-						</Badge>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							Streamlit
-						</Badge>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							Prophet
-						</Badge>
-					</Box>
-				</CreationGridItem>
-			</Box>
-			<Box>
-				<CreationGridItem
-					title="Face Recognition System"
-					thumbnail={faceRecognitionThumbnail}
-					link="https://github.com/1391819/face_recognition"
-				>
-					<Box pb={1}>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							Opencv
-						</Badge>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							Raspberry Pi
-						</Badge>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							SQLite3
-						</Badge>
-					</Box>
-				</CreationGridItem>
-			</Box>
-			<Box>
-				<CreationGridItem
 					title="KDrama Dash"
 					thumbnail={kdramaDashThumbnail}
 					link="https://github.com/1391819/kdrama-dash"
@@ -114,6 +52,61 @@ const Creations = () => {
 			</Box>
 			<Box>
 				<CreationGridItem
+					title="Financial Researcher"
+					thumbnail={financialResearcherThumbnail}
+					link="https://github.com/1391819/financial-researcher"
+				>
+					<Box pb={1}>
+						<Badge
+							className="stack-badge"
+							fontSize={['xs', null, null, null, null, null]}
+							colorScheme="teal"
+						>
+							Hugging Face
+						</Badge>
+						<Badge
+							className="stack-badge"
+							fontSize={['xs', null, null, null, null, null]}
+							colorScheme="teal"
+						>
+							Streamlit
+						</Badge>
+						<Badge
+							className="stack-badge"
+							fontSize={['xs', null, null, null, null, null]}
+							colorScheme="teal"
+						>
+							Prophet
+						</Badge>
+					</Box>
+				</CreationGridItem>
+			</Box>
+			<Box>
+				<CreationGridItem
+					title="ML Notebooks"
+					thumbnail={generalProjectThumbnail}
+					link="https://github.com/1391819/notebooks-ml"
+				>
+					<Box pb={1}>
+						<Badge
+							className="stack-badge"
+							fontSize={['xs', null, null, null, null, null]}
+							colorScheme="teal"
+						>
+							Python
+						</Badge>
+						<Badge
+							className="stack-badge"
+							fontSize={['xs', null, null, null, null, null]}
+							colorScheme="teal"
+						>
+							Machine Learning
+						</Badge>
+					</Box>
+				</CreationGridItem>
+			</Box>
+			<Box>
+				<CreationGridItem
 					title="MA Seek"
 					thumbnail={maSeekThumbnail}
 					link="https://github.com/1391819/MA-seek"
@@ -145,9 +138,9 @@ const Creations = () => {
 			</Box>
 			<Box>
 				<CreationGridItem
-					title="ML Notebooks"
-					thumbnail={generalProjectThumbnail}
-					link="https://github.com/1391819/notebooks-ml"
+					title="Face Recognition System"
+					thumbnail={faceRecognitionThumbnail}
+					link="https://github.com/1391819/face_recognition"
 				>
 					<Box pb={1}>
 						<Badge
@@ -155,14 +148,21 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							Python
+							Opencv
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							Machine Learning
+							Raspberry Pi
+						</Badge>
+						<Badge
+							className="stack-badge"
+							fontSize={['xs', null, null, null, null, null]}
+							colorScheme="teal"
+						>
+							SQLite3
 						</Badge>
 					</Box>
 				</CreationGridItem>
