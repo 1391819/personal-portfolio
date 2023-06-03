@@ -361,6 +361,16 @@ export default function Home() {
 										/>
 										<Paragraph>React</Paragraph>
 									</ListItem>
+									<ListItem
+										display="flex"
+										alignItems="center"
+									>
+										<ListIcon
+											as={ChevronRightIcon}
+											color={listIconsColor[colorMode]}
+										/>
+										<Paragraph>Docker</Paragraph>
+									</ListItem>
 								</List>
 								<List spacing={1} pt={4} pb={8}>
 									<ListItem
@@ -402,6 +412,16 @@ export default function Home() {
 											color={listIconsColor[colorMode]}
 										/>
 										<Paragraph>OpenCV</Paragraph>
+									</ListItem>
+									<ListItem
+										display="flex"
+										alignItems="center"
+									>
+										<ListIcon
+											as={ChevronRightIcon}
+											color={listIconsColor[colorMode]}
+										/>
+										<Paragraph>Pandas & NumPy</Paragraph>
 									</ListItem>
 								</List>
 							</Box>
