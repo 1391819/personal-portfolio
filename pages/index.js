@@ -158,10 +158,10 @@ export default function Home() {
 									}}
 								>
 									I&apos;m a multilingual Computer Science
-									graduate based in Newcastle upon Tyne. I
-									have a great interest in machine learning,
-									computer vision, full stack development, and
-									everything in between.
+									graduate based in Newcastle upon Tyne with a
+									keen interest in machine learning, data
+									science, computer vision, and everything in
+									between.
 								</Highlight>
 							</Paragraph>
 						</Box>
