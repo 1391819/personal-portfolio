@@ -83,9 +83,9 @@ const Creations = () => {
 			</Box>
 			<Box>
 				<CreationGridItem
-					title="ML Notebooks"
+					title="ML Hub"
 					thumbnail={generalProjectThumbnail}
-					link="https://github.com/1391819/notebooks-ml"
+					link="https://github.com/1391819/ml-hub"
 				>
 					<Box pb={1}>
 						<Badge
