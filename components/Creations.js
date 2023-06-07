@@ -46,6 +46,13 @@ const Creations = () => {
 							colorScheme="teal"
 						>
 							Docker
+						</Badge>{' '}
+						<Badge
+							className="stack-badge"
+							fontSize={['xs', null, null, null, null, null]}
+							colorScheme="teal"
+						>
+							EDA
 						</Badge>
 					</Box>
 				</CreationGridItem>
@@ -117,14 +124,14 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							Tensorflow
+							MARL
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							RL
+							TensorFlow
 						</Badge>
 						<Badge
 							className="stack-badge"
@@ -169,7 +176,7 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							SQLite3
+							SQLite
 						</Badge>
 					</Box>
 				</CreationGridItem>
