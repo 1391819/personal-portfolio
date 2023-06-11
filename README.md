@@ -2,9 +2,9 @@
   <img src="public/logo-light-nobg.png" alt="logo" width="128"/>
   <h1>Personal Portfolio - V1</h1>
 
-[www.nacu.me](https://nacu.me/)
-
 </div>
+
+This project showcases my skills, experience, and projects. It features a clean and intuitive design with sections for the landing page, bio, experience, and projects.
 
 ## Stack
 
