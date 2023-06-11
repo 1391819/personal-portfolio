@@ -6,12 +6,13 @@
 
 ## Roadmap
 
-- [x] Land page creation
-- [x] Raccoon 3D model
-- [x] Bio, experience and creations sections
-- [x] Reference to GitHub projects
-- [x] Desktop/Tablet/Mobile responsiveness
-- [x] Light and dark mode
+- [x] Design and develop an engaging and visually appealing land page
+- [x] Create and incorporate a 3D model of a raccoon 
+- [x] Include dedicated sections to showcase bio, experience, and portfolio creations
+- [x] Provide links and references to GitHub projects
+- [x] Ensure that the portfolio is responsive and adapts well to different screen sizes and devices
+- [x] Implement light and dark mode options
+- [x] Continuously refine and optimize the codebase
 
 ## Stack
 
