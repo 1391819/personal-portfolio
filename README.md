@@ -8,9 +8,9 @@
 
 ## Stack
 
-- [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
-- [Chakra UI](https://chakra-ui.com/) - A simple, modular and accessible component library for React
-- [Three.js](https://threejs.org/) - 3D library for JavaScript
+- Next.js
+- Chakra UI
+- Three.js
 
 ## Project structure
 
@@ -40,12 +40,12 @@ $PROJECT_ROOT
   </div>
 <div align="justify">
 
-## License
-
-MIT
-
 ## Attributions
 
-- [Craftzdog's GitHub](https://github.com/craftzdog/craftzdog-homepage)
+- [Craftzdog](https://github.com/craftzdog/craftzdog-homepage)
+
+## License
+
+[MIT](https://github.com/1391819/personal-portfolio/blob/main/License.txt) © [Roberto Nacu](https://github.com/1391819)
 
 </div>
