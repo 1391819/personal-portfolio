@@ -4,8 +4,6 @@
 
 </div>
 
-This project showcases my skills, experience, and projects. It features a clean and intuitive design with sections for the landing page, bio, experience, and projects.
-
 ## Stack
 
 - Next.js
