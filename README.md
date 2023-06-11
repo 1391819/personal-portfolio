@@ -4,6 +4,15 @@
 
 </div>
 
+## Roadmap
+
+- [x] Land page creation
+- [x] Raccoon 3D model
+- [x] Bio, experience and creations sections
+- [x] Reference to GitHub projects
+- [x] Desktop/Tablet/Mobile responsiveness
+- [x] Light and dark mode
+
 ## Stack
 
 - Next.js
@@ -23,13 +32,6 @@ $PROJECT_ROOT
 │   # Static files for images and 3D model file
 └── public
 ```
-
-## Roadmap
-
-- [x] Basic structure - landpage, bio, experience, and projects
-- [x] Mobile responsiveness
-- [x] Light and dark mode
-- [x] Create landpage gif for README document
 
 ## Highlights
 
