@@ -6,17 +6,15 @@
 
 ## Roadmap
 
-- [x]  Set up a new Next.js project as the foundation for the portfolio website
-- [x]  Design and implement the overall layout and structure of the portfolio using Chakra UI components
-- [x]  Create different sections for showcasing projects, skills, experiences, and contact information
-- [x]  Create a 3D raccoon model using MagicaVoxel
-- [x]  Integrate Three.js library to add an interactive 3D raccoon model to the portfolio
-- [x]  Implement smooth transitions, animations, and light and dark mode options for a polished user experience
-- [x]  Add responsive design and ensure the portfolio is accessible on different devices and screen sizes
-- [x]  Optimize the performance of the portfolio by optimizing images, and lazy loading
-- [x]  Test the portfolio website thoroughly to ensure compatibility and functionality across different browsers and devices
-- [x]  Deploy the portfolio website to Vercel
-- [x]  Continuously refine and optimize the codebase
+- [x]  Set up new Next.js project
+- [x]  Design and implement overall layout (intro, about me, experience, creations)
+- [x]  Create and add 3D raccoon model
+- [x]  Implement smooth transitions, animations, and light and dark mode options
+- [x]  Desktop/tablet/mobile responsiveness
+- [x]  Optimise performance (e.g., images, lazy loading)
+- [x]  Perform testing on compatibility and functionality
+- [x]  Deployment to Vercel
+- [x]  Continuously refine and optimize codebase
 
 ## Stack
 
