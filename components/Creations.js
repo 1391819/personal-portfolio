@@ -46,7 +46,7 @@ const Creations = () => {
 							colorScheme="teal"
 						>
 							Docker
-						</Badge>{' '}
+						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
@@ -69,7 +69,14 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							Hugging Face
+							Python
+						</Badge>
+						<Badge
+							className="stack-badge"
+							fontSize={['xs', null, null, null, null, null]}
+							colorScheme="teal"
+						>
+							Transformers
 						</Badge>
 						<Badge
 							className="stack-badge"
@@ -77,13 +84,6 @@ const Creations = () => {
 							colorScheme="teal"
 						>
 							Streamlit
-						</Badge>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							Prophet
 						</Badge>
 					</Box>
 				</CreationGridItem>
@@ -162,7 +162,14 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							Opencv
+							Python
+						</Badge>
+						<Badge
+							className="stack-badge"
+							fontSize={['xs', null, null, null, null, null]}
+							colorScheme="teal"
+						>
+							OpenCV
 						</Badge>
 						<Badge
 							className="stack-badge"
@@ -193,13 +200,6 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							JavaScript
-						</Badge>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
 							ThreeJS
 						</Badge>
 						<Badge
@@ -207,7 +207,14 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							GLSL/glTF
+							GLSL
+						</Badge>
+						<Badge
+							className="stack-badge"
+							fontSize={['xs', null, null, null, null, null]}
+							colorScheme="teal"
+						>
+							glTF
 						</Badge>
 					</Box>
 				</CreationGridItem>
