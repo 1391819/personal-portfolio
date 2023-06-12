@@ -11,10 +11,10 @@
 - [x] Create and add 3D raccoon model
 - [x] Implement smooth transitions, animations, and light and dark mode options
 - [x] Ensure desktop/tablet/mobile responsiveness
-- [x] Optimize performance (e.g., images, lazy loading)
+- [x] Optimise performance (e.g., images, lazy loading)
 - [x] Perform testing on compatibility and functionality
 - [x] Deploy to Vercel
-- [x] Continuously refine and optimize codebase
+- [x] Continuously refine and optimise codebase
 
 ## Stack
 
