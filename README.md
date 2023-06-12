@@ -6,15 +6,15 @@
 
 ## Roadmap
 
-- [x]  Set up new Next.js project
-- [x]  Design and implement overall layout (intro, about me, experience, creations)
-- [x]  Create and add 3D raccoon model
-- [x]  Implement smooth transitions, animations, and light and dark mode options
-- [x]  Ensure desktop/tablet/mobile responsiveness
-- [x]  Optimise performance (e.g., images, lazy loading)
-- [x]  Perform testing on compatibility and functionality
-- [x]  Deploy to Vercel
-- [x]  Continuously refine and optimise codebase
+- [x] Set up new Next.js project
+- [x] Design and implement overall layout (intro, about me, experience, creations)
+- [x] Create and add 3D raccoon model
+- [x] Implement smooth transitions, animations, and light and dark mode options
+- [x] Ensure desktop/tablet/mobile responsiveness
+- [x] Optimize performance (e.g., images, lazy loading)
+- [x] Perform testing on compatibility and functionality
+- [x] Deploy to Vercel
+- [x] Continuously refine and optimize codebase
 
 ## Stack
 
