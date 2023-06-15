@@ -169,14 +169,14 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							OpenCV
+							Raspberry Pi
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							Raspberry Pi
+							OpenCV
 						</Badge>
 						<Badge
 							className="stack-badge"
