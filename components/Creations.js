@@ -124,13 +124,6 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							MARL
-						</Badge>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
 							TensorFlow
 						</Badge>
 						<Badge
@@ -138,7 +131,7 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							POMDP
+							MARL
 						</Badge>
 						<Badge
 							className="stack-badge"
@@ -146,6 +139,13 @@ const Creations = () => {
 							colorScheme="teal"
 						>
 							DRQN
+						</Badge>
+						<Badge
+							className="stack-badge"
+							fontSize={['xs', null, null, null, null, null]}
+							colorScheme="teal"
+						>
+							POMDP
 						</Badge>
 					</Box>
 				</CreationGridItem>
