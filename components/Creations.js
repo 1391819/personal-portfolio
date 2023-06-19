@@ -59,37 +59,6 @@ const Creations = () => {
 			</Box>
 			<Box>
 				<CreationGridItem
-					title="Financial Researcher"
-					thumbnail={financialResearcherThumbnail}
-					link="https://github.com/1391819/financial-researcher"
-				>
-					<Box pb={1}>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							Python
-						</Badge>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							Transformers
-						</Badge>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							Streamlit
-						</Badge>
-					</Box>
-				</CreationGridItem>
-			</Box>
-			<Box>
-				<CreationGridItem
 					title="ML Hub"
 					thumbnail={generalProjectThumbnail}
 					link="https://github.com/1391819/ml-hub"
@@ -114,9 +83,9 @@ const Creations = () => {
 			</Box>
 			<Box>
 				<CreationGridItem
-					title="MA Seek"
-					thumbnail={maSeekThumbnail}
-					link="https://github.com/1391819/MA-seek"
+					title="Low Poly Environment"
+					thumbnail={interactiveLowPolyEnvironmentThumbnail}
+					link="https://github.com/1391819/interactive-low-poly-environment"
 				>
 					<Box pb={1}>
 						<Badge
@@ -124,28 +93,21 @@ const Creations = () => {
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							TensorFlow
+							ThreeJS
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							MARL
+							GLSL
 						</Badge>
 						<Badge
 							className="stack-badge"
 							fontSize={['xs', null, null, null, null, null]}
 							colorScheme="teal"
 						>
-							DRQN
-						</Badge>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							POMDP
+							glTF
 						</Badge>
 					</Box>
 				</CreationGridItem>
@@ -184,37 +146,6 @@ const Creations = () => {
 							colorScheme="teal"
 						>
 							SQLite
-						</Badge>
-					</Box>
-				</CreationGridItem>
-			</Box>
-			<Box>
-				<CreationGridItem
-					title="Low Poly Environment"
-					thumbnail={interactiveLowPolyEnvironmentThumbnail}
-					link="https://github.com/1391819/interactive-low-poly-environment"
-				>
-					<Box pb={1}>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							ThreeJS
-						</Badge>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							GLSL
-						</Badge>
-						<Badge
-							className="stack-badge"
-							fontSize={['xs', null, null, null, null, null]}
-							colorScheme="teal"
-						>
-							glTF
 						</Badge>
 					</Box>
 				</CreationGridItem>
