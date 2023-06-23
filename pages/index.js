@@ -261,6 +261,8 @@ export default function Home() {
 								<BioSection>
 									<BioYear>2016</BioYear>
 									<Paragraph>
+										Completed studies at I.T.I.S. P.
+										Paleocapa in Bergamo, and obtained a
 										Diploma di Stato in Computer Science.
 									</Paragraph>
 								</BioSection>
@@ -275,16 +277,16 @@ export default function Home() {
 									<BioYear>2020</BioYear>
 									<Paragraph>
 										Studied at Nagoya University of Foreign
-										Studies in Japan. Achieved one of my
-										many dreams.
+										Studies in Japan and achieved one of my
+										long-held dreams.
 									</Paragraph>
 								</BioSection>
 								<BioSection>
 									<BioYear>2022</BioYear>
 									<Paragraph>
-										Bsc in Computer Science with AI at
-										Northumbria University. Achieved a First
-										Class Honours.
+										Graduated with a BSc in Computer Science
+										with AI from Northumbria University,
+										achieving a First Class Honours.
 									</Paragraph>
 								</BioSection>
 							</Box>
@@ -311,7 +313,7 @@ export default function Home() {
 					</Box>
 					<Box fontSize={['sm', null, 'md', null, null, null]} pt={8}>
 						<Paragraph>
-							Here are some of the technologies I have been
+							Here are some of the main technologies I have been
 							working with:
 						</Paragraph>
 						<Box display="flex" justifyContent={'center'}>
@@ -427,10 +429,11 @@ export default function Home() {
 							</Box>
 						</Box>
 						<Paragraph>
-							Outside of work, I&apos;m interested in following
-							the advancements of science and art related fields.
-							I also play a lot of video games, read productivity
-							resources and have a deep passion for learning
+							Outside of work, I actively engage with the latest
+							developments in science and art, staying up to date
+							with advancements in these fields. Alongside that, I
+							indulge in playing video games, consume productivity
+							resources, and nurture a deep passion for learning
 							foreign languages.
 						</Paragraph>
 					</Box>
