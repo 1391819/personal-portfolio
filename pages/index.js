@@ -512,7 +512,7 @@ export default function Home() {
 										/>
 										<Paragraph>
 											Implemented client-tailored CNC
-											programs whilst optimising the
+											programs while optimising the
 											virtual machining process
 										</Paragraph>
 									</ListItem>
@@ -525,9 +525,9 @@ export default function Home() {
 											color={listIconsColor[colorMode]}
 										/>
 										<Paragraph>
-											Developed, tested and debugged
-											maintainable software using C++ and
-											OpenGL
+											Developed and tested maintainable
+											software for real-time 3D
+											visualisation using C++ and OpenGL
 										</Paragraph>
 									</ListItem>
 									<ListItem
@@ -539,8 +539,10 @@ export default function Home() {
 											color={listIconsColor[colorMode]}
 										/>
 										<Paragraph>
-											Resolved customers’ enquiries and
-											provided remote technical assistance
+											Provided remote technical assistance
+											for toolpath optimisation,
+											calibration, and G-code
+											interpretation
 										</Paragraph>
 									</ListItem>
 									<ListItem
@@ -553,9 +555,10 @@ export default function Home() {
 										/>
 										<Paragraph>
 											<b>
-												Resulted in 100% satisfaction by
-												both domestic and international
-												customers
+												Achieved a 100% customer
+												satisfaction rate, serving both
+												domestic and international
+												clients
 											</b>
 										</Paragraph>
 									</ListItem>
