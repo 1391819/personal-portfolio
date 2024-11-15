@@ -43,10 +43,6 @@ $PROJECT_ROOT
   </div>
 <div align="justify">
 
-## Attributions
-
-- [Craftzdog](https://github.com/craftzdog/craftzdog-homepage)
-
 ## License
 
 [MIT](https://github.com/1391819/personal-portfolio/blob/main/License.txt) © [Roberto Nacu](https://github.com/1391819)
