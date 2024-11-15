@@ -36,13 +36,6 @@ $PROJECT_ROOT
 └── public
 ```
 
-## Highlights
-
-  <div align="center">
-    <img src="public/screenshots/landpage.gif" alt="landpage gif"/>
-  </div>
-<div align="justify">
-
 ## License
 
 [MIT](https://github.com/1391819/personal-portfolio/blob/main/License.txt) © [Roberto Nacu](https://github.com/1391819)
