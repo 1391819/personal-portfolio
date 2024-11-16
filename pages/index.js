@@ -1,4 +1,3 @@
-import NextLink from "next/link";
 import Head from "next/head";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
@@ -31,7 +30,7 @@ import Creations from "../components/Creations.js";
 import SocialMedia from "../components/SocialMedia.js";
 import Section from "../components/Section.js";
 
-import { ChevronRightIcon, DownloadIcon, ChatIcon } from "@chakra-ui/icons";
+import { ChevronRightIcon, ChatIcon } from "@chakra-ui/icons";
 
 import Typed from "react-typed";
 
@@ -108,11 +107,6 @@ export default function Home() {
     dark: "",
   };
 
-  const linkColor = {
-    light: "red.400",
-    dark: "teal.300",
-  };
-
   return (
     <Container>
       <Head>
@@ -158,7 +152,7 @@ export default function Home() {
             <Box zIndex={1}>
               <Paragraph>
                 <Highlight
-                  query={["aaaa"]}
+                  query={[""]}
                   styles={{
                     fontWeight: "600",
                     color: highlightColor[colorMode],
@@ -228,41 +222,38 @@ export default function Home() {
               <Box fontSize={["sm", null, "md", null, null, null]}>
                 <BioSection>
                   <BioYear>1998</BioYear>
-                  <Paragraph>Born in Milan, Italy.</Paragraph>
+                  <Paragraph>Born in Milan, Italy</Paragraph>
                 </BioSection>
                 <BioSection>
                   <BioYear>2016</BioYear>
                   <Paragraph>
-                    Completed studies at I.T.I.S. P. Paleocapa in Bergamo and
-                    earned a Diploma di Stato in Computer Science.
+                    Completed studies at P. Paleocapa in Bergamo and earned a
+                    Diploma di Stato in Computer Science
                   </Paragraph>
                 </BioSection>
                 <BioSection>
                   <BioYear>2017</BioYear>
                   <Paragraph>
-                    Moved to Newcastle upon Tyne, United Kingdom.
+                    Moved to Newcastle upon Tyne, United Kingdom
                   </Paragraph>
                 </BioSection>
                 <BioSection>
                   <BioYear>2020</BioYear>
                   <Paragraph>
                     Studied at Nagoya University of Foreign Studies in Japan,
-                    fullfulling one of my long-held aspirations to immerse
-                    myself in Japanese culture.
+                    fullfulling one of my long-held dreams
                   </Paragraph>
                 </BioSection>
                 <BioSection>
                   <BioYear>2022</BioYear>
                   <Paragraph>
-                    Graduated with a First Class Honours in Computer Science
-                    with Artificial Intelligence from Northumbria University.
+                    Graduated from Northumbria University with a First Class
+                    Honours in Computer Science with AI
                   </Paragraph>
                 </BioSection>
                 <BioSection>
                   <BioYear>2023</BioYear>
-                  <Paragraph>
-                    Began my professional journey as a Software Engineer.
-                  </Paragraph>
+                  <Paragraph>Began my journey as a Software Engineer</Paragraph>
                 </BioSection>
               </Box>
             </Box>
@@ -282,43 +273,10 @@ export default function Home() {
           </Box>
           <Box fontSize={["sm", null, "md", null, null, null]} pt={8}>
             <Paragraph>
-              Here are some of the main technologies I have been working with:
-            </Paragraph>
-            <List spacing={1} pt={4} pb={8}>
-              <ListItem display="flex" alignItems="center">
-                <ListIcon
-                  as={ChevronRightIcon}
-                  color={listIconsColor[colorMode]}
-                />
-                <Paragraph>Python, JavaScript, Bash</Paragraph>
-              </ListItem>
-              <ListItem display="flex" alignItems="center">
-                <ListIcon
-                  as={ChevronRightIcon}
-                  color={listIconsColor[colorMode]}
-                />
-                <Paragraph>Flask, React</Paragraph>
-              </ListItem>
-              <ListItem display="flex" alignItems="center">
-                <ListIcon
-                  as={ChevronRightIcon}
-                  color={listIconsColor[colorMode]}
-                />
-                <Paragraph>PostgreSQL, MongoDB</Paragraph>
-              </ListItem>
-              <ListItem display="flex" alignItems="center">
-                <ListIcon
-                  as={ChevronRightIcon}
-                  color={listIconsColor[colorMode]}
-                />
-                <Paragraph>AWS, Docker, Terraform, GitHub Actions</Paragraph>
-              </ListItem>
-            </List>
-            <Paragraph>
               Outside of work, I actively engage with the latest developments in
               science and art, staying up to date with advancements in these
-              fields. Alongside that, I enjoy playing video games, discovering
-              productivity hacks, and continuously learning foreign languages.
+              fields. Alongside that, I enjoy playing video games and
+              discovering productivity hacks.
             </Paragraph>
           </Box>
         </Box>
@@ -385,7 +343,6 @@ export default function Home() {
                 as={motion.div}
                 fontSize={["md", null, "lg", null, null, null]}
                 mr={4}
-                //pointerEvents="auto"
                 cursor="pointer"
                 userSelect="none"
                 color={tabButtonColor[colorMode]}
@@ -469,8 +426,23 @@ export default function Home() {
                     <Paragraph>
                       Graduated at the top of the cohort, securing a Software
                       Engineering role at the Office for National Statistics,
-                      with exceptional performance in both individual and
-                      group-based projects
+                      with exceptional performance in both{" "}
+                      <Link
+                        href="https://github.com/1391819/SFIA-CRUD-core-project"
+                        target="_blank"
+                        color={headingColor[colorMode]}
+                      >
+                        individual
+                      </Link>{" "}
+                      and{" "}
+                      <Link
+                        href="https://github.com/1391819/Codebusters"
+                        target="_blank"
+                        color={headingColor[colorMode]}
+                      >
+                        group-based
+                      </Link>{" "}
+                      projects
                     </Paragraph>
                   </ListItem>
                 </List>

@@ -1,5 +1,5 @@
 import React from "react";
-import { useColorMode, Button, Flex, Box } from "@chakra-ui/react";
+import { useColorMode, Button, Flex, Box, Link } from "@chakra-ui/react";
 import NextLink from "next/link";
 import DarkModeSwitch from "../components/DarkModeSwitch";
 import Section from "./Section.js";
@@ -39,9 +39,6 @@ const Container = ({ children }) => {
         ]}
         alignItems={"flex-end"}
         width={"100%"}
-        //pl={[null, null, null, 8, 10, null]}
-        //pr={[4, 4, 8, 8, 10, null]}
-        //pb={[2, 4, 6, null, null, 10]}
         p={[4, 4, 8, 8, 10, null]}
       >
         <Box
@@ -50,22 +47,21 @@ const Container = ({ children }) => {
           alignItems={"flex-start"}
         >
           <Section delay="0.60">
-            <NextLink href="#home" passHref>
+            <Link as={NextLink} href="#home" passHref>
               <Button
                 as="a"
                 color="red.400"
                 variant="link"
-                //pt={[0, 0, 0.5, null, null, null]}
                 _hover={{ color: navHoverBg[colorMode] }}
                 pointerEvents="auto"
                 fontSize={[null, null, null, "md", null, null]}
               >
                 / home
               </Button>
-            </NextLink>
+            </Link>
           </Section>
           <Section delay="0.65">
-            <NextLink href="#about-me" passHref>
+            <Link as={NextLink} href="#about-me" passHref>
               <Button
                 as="a"
                 color="red.400"
@@ -77,10 +73,10 @@ const Container = ({ children }) => {
               >
                 / about me
               </Button>
-            </NextLink>
+            </Link>
           </Section>
           <Section delay="0.70">
-            <NextLink href="#experience" passHref>
+            <Link as={NextLink} href="#experience" passHref>
               <Button
                 as="a"
                 color="red.400"
@@ -92,10 +88,10 @@ const Container = ({ children }) => {
               >
                 / experience
               </Button>
-            </NextLink>
+            </Link>
           </Section>
           <Section delay="0.75">
-            <NextLink href="#creations" passHref>
+            <Link as={NextLink} href="#creations" passHref>
               <Button
                 as="a"
                 color="red.400"
@@ -107,7 +103,7 @@ const Container = ({ children }) => {
               >
                 <Box>/ creations</Box>
               </Button>
-            </NextLink>
+            </Link>
           </Section>
         </Box>
         <Section delay="0.75">
