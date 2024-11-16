@@ -222,40 +222,38 @@ export default function Home() {
               <Box fontSize={["sm", null, "md", null, null, null]}>
                 <BioSection>
                   <BioYear>1998</BioYear>
-                  <Paragraph>Born in Milan, Italy.</Paragraph>
+                  <Paragraph>Born in Milan, Italy</Paragraph>
                 </BioSection>
                 <BioSection>
                   <BioYear>2016</BioYear>
                   <Paragraph>
                     Completed studies at P. Paleocapa in Bergamo and earned a
-                    Diploma di Stato in Computer Science.
+                    Diploma di Stato in Computer Science
                   </Paragraph>
                 </BioSection>
                 <BioSection>
                   <BioYear>2017</BioYear>
                   <Paragraph>
-                    Moved to Newcastle upon Tyne, United Kingdom.
+                    Moved to Newcastle upon Tyne, United Kingdom
                   </Paragraph>
                 </BioSection>
                 <BioSection>
                   <BioYear>2020</BioYear>
                   <Paragraph>
                     Studied at Nagoya University of Foreign Studies in Japan,
-                    fulfulling one of my long-held dreams.
+                    fulfulling one of my long-held dreams
                   </Paragraph>
                 </BioSection>
                 <BioSection>
                   <BioYear>2022</BioYear>
                   <Paragraph>
                     Graduated from Northumbria University with a First Class
-                    Honours in Computer Science with AI.
+                    Honours in Computer Science with AI
                   </Paragraph>
                 </BioSection>
                 <BioSection>
                   <BioYear>2023</BioYear>
-                  <Paragraph>
-                    Began my journey as a Software Engineer.
-                  </Paragraph>
+                  <Paragraph>Began my journey as a Software Engineer</Paragraph>
                 </BioSection>
               </Box>
             </Box>
