@@ -414,9 +414,8 @@ export default function Home() {
                       color={listIconsColor[colorMode]}
                     />
                     <Paragraph>
-                      Completed an intensive 3-month training program, gaining
-                      experience in Python, Git, Docker, Terraform, AWS, Linux,
-                      and CI/CD principles.
+                      Completed an intensive 3-month software engineering
+                      training program focused on DevOps practices.
                     </Paragraph>
                   </ListItem>
                   <ListItem display="flex" alignItems="center">
@@ -425,9 +424,9 @@ export default function Home() {
                       color={listIconsColor[colorMode]}
                     />
                     <Paragraph>
-                      Graduated at the top of the cohort, securing a Software
-                      Engineering role at the Office for National Statistics,
-                      with exceptional performance in both{" "}
+                      Graduated at the top of the cohort and secured a Software
+                      Engineering role at the Office for National Statistics
+                      through exceptional performance in both{" "}
                       <Link
                         href="https://github.com/1391819/SFIA-CRUD-core-project"
                         target="_blank"
