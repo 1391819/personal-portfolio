@@ -158,11 +158,12 @@ export default function Home() {
                     color: highlightColor[colorMode],
                   }}
                 >
-                  I&apos;m a Software Engineer based in Newcastle upon Tyne,
-                  curious about how technology can solve complex problems. I
-                  have a passion for backend development and cloud solutions,
-                  but I&apos;m equally fascinated by machine learning, computer
-                  vision, and full-stack development.
+                  I&apos;m a Software Engineer based in Newcastle upon Tyne with
+                  a strong foundation in backend development and cloud
+                  solutions. I&apos;m passionate about using technology to solve
+                  complex problems and create impactful solutions, while also
+                  exploring fields like machine learning, computer vision, and
+                  full-stack development.
                 </Highlight>
               </Paragraph>
             </Box>
