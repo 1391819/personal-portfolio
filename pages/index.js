@@ -415,7 +415,8 @@ export default function Home() {
                     />
                     <Paragraph>
                       Completed an intensive 3-month software engineering
-                      training program focused on DevOps practices.
+                      training program, gaining hands-on experience in DevOps
+                      practices, cloud computing, and backend development.
                     </Paragraph>
                   </ListItem>
                   <ListItem display="flex" alignItems="center">
